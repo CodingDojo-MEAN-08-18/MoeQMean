@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2dbd0afd-2546-4a37-bd60-765a5a11904b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/assignments/javascript_scroll.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/javascript_scroll.html" afterDir="false" />
-    </list>
+    <list default="true" id="2dbd0afd-2546-4a37-bd60-765a5a11904b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -28,11 +26,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="javascript_scroll.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="javascript_scroll.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignments/javascript_scroll.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="814">
               <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hunting_github.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assignments/hunting_github.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="700">
+              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hunting_github.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignments/hunting_github.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="27" column="50" lean-forward="true" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -52,6 +68,8 @@
       <list>
         <option value="$PROJECT_DIR$/assignments/javascript_hoisting.js" />
         <option value="$PROJECT_DIR$/assignments/javascript_scroll.html" />
+        <option value="$PROJECT_DIR$/assignments/hunting_github.html" />
+        <option value="$PROJECT_DIR$/assignments/hunting_github.js" />
       </list>
     </option>
   </component>
@@ -122,18 +140,18 @@
       <option name="presentableId" value="Default" />
       <updated>1533780269003</updated>
       <workItem from="1533780270251" duration="1907000" />
-      <workItem from="1533962708527" duration="1349000" />
+      <workItem from="1533962708527" duration="3509000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3256000" />
+    <option name="totallyTimeSpent" value="5416000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1273" y="0" width="1293" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2658327" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2658327" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -141,7 +159,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.18238021" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.18238021" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -183,6 +201,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="814">
           <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/hunting_github.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="27" column="50" lean-forward="true" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/hunting_github.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
         </state>
       </provider>
     </entry>
