@@ -17,7 +17,7 @@
 
         this.drinkSake = function() {
             this.health += 10;
-        }
+        };
     }
 
     var ninja1 = new Ninja("Hyabusa");

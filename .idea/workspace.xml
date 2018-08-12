@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dbd0afd-2546-4a37-bd60-765a5a11904b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/ninja_class_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/ninja_class_1.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ninja_class_1.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assignments/ninja_class_1.js">
+      <file leaf-file-name="ninja_class_2.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assignments/ninja_class_2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="784">
-              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="632">
+              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -43,6 +43,7 @@
         <option value="$PROJECT_DIR$/assignments/hunting_github.html" />
         <option value="$PROJECT_DIR$/assignments/hunting_github.js" />
         <option value="$PROJECT_DIR$/assignments/ninja_class_1.js" />
+        <option value="$PROJECT_DIR$/assignments/ninja_class_2.js" />
       </list>
     </option>
   </component>
@@ -90,6 +91,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\moequ\Documents\Coding_Dojo\MEAN Course\assignments" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -114,12 +120,12 @@
       <updated>1533780269003</updated>
       <workItem from="1533780270251" duration="1907000" />
       <workItem from="1533962708527" duration="4632000" />
-      <workItem from="1534035851325" duration="723000" />
+      <workItem from="1534035851325" duration="1360000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7262000" />
+    <option name="totallyTimeSpent" value="7899000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1273" y="0" width="1293" height="1407" extended-state="0" />
@@ -225,8 +231,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/ninja_class_1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="784">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="560">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/ninja_class_2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
         </state>
       </provider>
     </entry>
