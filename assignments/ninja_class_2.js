@@ -19,11 +19,6 @@
             this.health += 10;
         };
 
-        this.punch = function(ninja) {
-            ninja.health -= 5;
-            console.log(ninja.name + " was punched by " + this.name + " and lost 5 Health!");
-        };
-
         this.kick = function(ninja) {
             var subtractedAmount = 5 * strength;
             ninja.health -= subtractedAmount;
@@ -31,9 +26,20 @@
         };
     }
 
+    Ninja.prototype.punch = function(ninja) {
+        ninja.health -= 5;
+        console.log(ninja.name + " was punched by " + this.name + " and lost 5 Health!");
+        return this;
+    };
+
     var blueNinja = new Ninja("Goemon");
     var redNinja = new Ninja("Bill Gates");
-    redNinja.kick(blueNinja);
+    redNinja.punch(blueNinja);
 // -> "Goemon was punched by Bill Gates and lost 5 Health!"
+
+    blueNinja.kick(redNinja);
+// -> "Bill Gates was kicked by Goemon and lost 15 Health!"
+// In this case, redNinja Bill Gates lost 15 health because blueNinja Goemon has 1 point of strength
+
 
 }());
