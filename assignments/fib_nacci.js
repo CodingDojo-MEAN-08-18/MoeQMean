@@ -1,14 +1,14 @@
 function fib() {
     // Some variables here
-    let num = 0;
+    let previousNum = 0;
+    let currentNum = 1;
 
     function nacci(num) {
-        num++;
-        if (num <= 1) {
-            return 1;
-        }
-        // do something to those variables here
-        return (num - 1) + (num - 2);
+        const temporary = previousNum;
+        console.log(currentNum);
+
+        previousNum = currentNum;
+        currentNum = currentNum + temporary;
     }
     return nacci
 }
