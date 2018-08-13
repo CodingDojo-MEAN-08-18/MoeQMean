@@ -1,20 +1,16 @@
-(function(){
-    const DojoObject = {
-        click: function(onclick){
-            document.getElementById('myBtn').addEventListener('click', onclick);
-        },
-
-        hover: function(hoverIn, hoverOut){
-            document.getElementById('myBtn').addEventListener('mouseover', hoverIn);
-            document.getElementById('myBtn').addEventListener('mouseout', hoverOut);
-        }
+function $Dojo(id) {
+    this.myId = document.getElementById(id);
+    this.click = function (callback) {
+        this.myId.addEventListener("click", callback);
     };
 
-    window.$Dojo = function $Dojo(buttonID) {
-        return DojoObject;
+    this.hover = function (hoverin, hoverout) {
+        this.myId.addEventListener("mouseover", hoverin);
+        this.myId.addEventListener("mouseout", hoverout);
     };
-})();
 
-$Dojo().click(function(){ console.log("The button was clicked!"); });
+    return this;
+}
 
-$Dojo().hover(function(){ console.log(" Hover on button!") }, function(){ console.log("Hover off!") });
+$Dojo("myBtn").click(function() { console.log("The button was clicked!") });
+$Dojo("myBtn").hover(function() { console.log("The button was hovered on!") });
