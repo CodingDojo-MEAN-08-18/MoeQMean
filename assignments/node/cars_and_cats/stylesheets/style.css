@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding-top: 100px;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.new-car {
+    max-width: 600px;
+    margin: 0 auto;
+}
