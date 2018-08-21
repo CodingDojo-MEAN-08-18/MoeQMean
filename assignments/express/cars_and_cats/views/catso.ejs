@@ -17,25 +17,20 @@
     <div class="row">
         <div class="col-12">
             <h1 class="text-center cats--title">
-                EJS cats
+                Details page for Catso
             </h1>
         </div>
     </div>
-    <div class="row cats--row">
+    <div class="row cats--row-info">
         <div class="col-12">
-            <a href="/hipster">
-                <img src="../images/cat_01.jpg" alt="Cat">
-            </a>
+            <img src="../images/cat_03.jpg" alt="Cat">
         </div>
         <div class="col-12">
-            <a href="/ciggy">
-                <img src="../images/cat_02.jpg" alt="Cat">
-            </a>
-        </div>
-        <div class="col-12">
-            <a href="/catso">
-                <img src="../images/cat_03.jpg" alt="Cat">
-            </a>
+            <% for (var x in catso) { %>
+            <h3>Favorite food: <%= catso[x].favorite_food %></h3>
+            <h4>Age: <%= catso[x].age %></h4>
+            <h4>Sleeping spots: <%= catso[x].sleeping_spots %></h4>
+            <% } %>
         </div>
     </div>
 </div>
