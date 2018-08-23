@@ -1,0 +1,23 @@
+.container {
+    padding-top: 50px;
+}
+.row {
+    margin-bottom: 20px;
+}
+.survey-form,
+.message{
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #000;
+}
+.message {
+    background: #90EE90;
+}
+.clear {
+    clear: both;
+}
+.txt-underline {
+    text-decoration: underline;
+}
