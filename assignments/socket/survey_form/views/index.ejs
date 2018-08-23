@@ -14,18 +14,22 @@
 
             var socket = io();
 
-            $('.survey-form').submit(function(){
-                socket.emit('posting_form', {name: $('#name').val(), location: $('#location').val(), language: $('#language').val(), comment: $('#comment').val()});
-
-                return false;
+            $('.survey-form').submit(function(e){
+                e.preventDefault();
+                socket.emit('posting_form', {
+                    name: $('#name').val(),
+                    location: $('#location').val(),
+                    language: $('#language').val(),
+                    comment: $('#comment').val()
+                });
             });
 
             socket.on('updated_message', function(data) {
-                $('.message').html('<p>You emitted the following information to the server: '+ JSON.stringify(data.msg) +'</p>');
+                $('.message').html('<p>You emitted the following information to the server: <strong>'+ JSON.stringify(data.msg) +'</strong></p>').slideDown();
             });
 
             socket.on('random_number', function(num) {
-               $('.message').append('<p>Your lucky number emitted by the server is: '+ num.number);
+               $('.message').append('<p>Your lucky number emitted by the server is: <strong>'+ num.number +'</strong></p>');
             });
 
         })

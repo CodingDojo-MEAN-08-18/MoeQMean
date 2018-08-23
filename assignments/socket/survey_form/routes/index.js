@@ -15,11 +15,6 @@ module.exports = function Route(app) {
             comment: req.body.comment
         };
 
-        // console.log("Name: ", submitted.name);
-        // console.log("language: ", submitted.language);
-        // console.log("location: ", submitted.location);
-        // console.log("comment: ", submitted.comment);
-
         res.redirect('/');
     });
 };
