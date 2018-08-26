@@ -1,0 +1,18 @@
+{
+  "name": "epic_button_game",
+  "version": "1.0.0",
+  "description": "An assignment on sockets for CodingDojo.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Moe Quraishi",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "nodemon": "^1.18.3",
+    "socket.io": "^2.1.1"
+  }
+}
