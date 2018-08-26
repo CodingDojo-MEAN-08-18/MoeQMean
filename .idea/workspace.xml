@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dbd0afd-2546-4a37-bd60-765a5a11904b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/assignments/socket/survey_form/public/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/socket/survey_form/public/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/socket/survey_form/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/socket/survey_form/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assignments/socket/survey_form/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/socket/survey_form/views/index.ejs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,38 +18,88 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/socket/survey_form/server.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignments/socket/chatroom/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="17" column="76" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="76" />
+            <state relative-caret-position="382">
+              <caret line="55" column="19" lean-forward="true" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assignments/socket/survey_form/views/index.ejs">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignments/socket/chatroom/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="31" column="121" selection-start-line="31" selection-start-column="121" selection-end-line="31" selection-end-column="121" />
+            <state relative-caret-position="112">
+              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignments/socket/chatroom/views/index.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="812">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assignments/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/socket/survey_form/public/styles/main.css">
+        <entry file="file://$PROJECT_DIR$/assignments/socket/chatroom/static/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+            <state relative-caret-position="924">
+              <caret line="39" column="16" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/socket/survey_form/routes/index.js">
+        <entry file="file://D:/Documents/socket/socket.io-master/examples/chat/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+            <state relative-caret-position="314">
+              <caret line="31" column="36" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://D:/Documents/socket/socket.io-master/examples/chat/public/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignments/socket/chatroom/static/scripts/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="896">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://D:/Documents/socket/socket.io-master/examples/chat/public/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="734">
+              <caret line="49" column="27" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chatroom.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignments/socket/chatroom/views/chatroom.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="438">
+              <caret line="110" column="22" lean-forward="true" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -59,6 +109,33 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>counter</find>
+      <find>body</find>
+      <find>connect</find>
+      <find>.dialog</find>
+      <find>user.app</find>
+      <find>user.appe</find>
+      <find>post</find>
+      <find>users-online&quot;</find>
+      <find>users-online</find>
+      <find>message</find>
+      <find>userlist</find>
+      <find>get_new_user</find>
+      <find>user joined'</find>
+      <find>postChat</find>
+      <find>.online</find>
+      <find>login</find>
+      <find>users online:</find>
+      <find>user_list</find>
+      <find>userName</find>
+      <find>push</find>
+      <find>socket.nickname</find>
+      <find>user disconnected</find>
+      <find>user left</find>
+      <find>user joined</find>
+      <find>addedUser</find>
+      <find>socket.username</find>
+      <find>new_message</find>
+      <find>add user</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -70,13 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assignments/javascript_scroll.html" />
-        <option value="$PROJECT_DIR$/assignments/hunting_github.html" />
-        <option value="$PROJECT_DIR$/assignments/hunting_github.js" />
-        <option value="$PROJECT_DIR$/assignments/ninja_class_1.js" />
-        <option value="$PROJECT_DIR$/assignments/ninja_class_2.js" />
-        <option value="$PROJECT_DIR$/assignments/bst.js" />
-        <option value="$PROJECT_DIR$/assignments/ninja_class_3.js" />
         <option value="$PROJECT_DIR$/assignments/deck_of_cards.js" />
         <option value="$PROJECT_DIR$/assignments/javascript_library.js" />
         <option value="$PROJECT_DIR$/assignments/dojo_query.html" />
@@ -117,10 +187,17 @@
         <option value="$PROJECT_DIR$/assignments/express/survey_form/views/index.ejs" />
         <option value="$PROJECT_DIR$/assignments/socket/survey_form/public/index.html" />
         <option value="$PROJECT_DIR$/assignments/socket/survey_form/server.js" />
-        <option value="$PROJECT_DIR$/assignments/.gitignore" />
         <option value="$PROJECT_DIR$/assignments/socket/survey_form/routes/index.js" />
         <option value="$PROJECT_DIR$/assignments/socket/survey_form/public/styles/main.css" />
         <option value="$PROJECT_DIR$/assignments/socket/survey_form/views/index.ejs" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.js" />
+        <option value="$PROJECT_DIR$/assignments/socket/chatroom/server.js" />
+        <option value="$PROJECT_DIR$/assignments/socket/chatroom/views/chatroom.ejs" />
+        <option value="$PROJECT_DIR$/assignments/socket/chatroom/routes/index.js" />
+        <option value="$PROJECT_DIR$/assignments/socket/chatroom/static/scripts/main.js" />
+        <option value="$PROJECT_DIR$/assignments/socket/chatroom/static/styles/main.css" />
+        <option value="$PROJECT_DIR$/assignments/socket/chatroom/views/index.ejs" />
+        <option value="$PROJECT_DIR$/assignments/.gitignore" />
       </list>
     </option>
   </component>
@@ -134,12 +211,13 @@
     <handled-path value="$PROJECT_DIR$/assignments/express/cars_and_cats/node_modules" />
     <handled-path value="$PROJECT_DIR$/assignments/express/counter/node_modules" />
     <handled-path value="$PROJECT_DIR$/assignments/express/survey_form/node_modules" />
+    <handled-path value="$PROJECT_DIR$/assignments/socket/chatroom/node_modules" />
     <handled-path value="$PROJECT_DIR$/assignments/socket/survey_form/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1908" />
-    <option name="width" value="1934" />
-    <option name="height" value="2112" />
+    <option name="x" value="-11" />
+    <option name="width" value="1941" />
+    <option name="height" value="2078" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -173,31 +251,14 @@
               <item name="MEAN Course" type="462c0819:PsiDirectoryNode" />
               <item name="assignments" type="462c0819:PsiDirectoryNode" />
               <item name="socket" type="462c0819:PsiDirectoryNode" />
-              <item name="survey_form" type="462c0819:PsiDirectoryNode" />
+              <item name="chatroom" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MEAN Course" type="b2602c69:ProjectViewProjectNode" />
               <item name="MEAN Course" type="462c0819:PsiDirectoryNode" />
               <item name="assignments" type="462c0819:PsiDirectoryNode" />
               <item name="socket" type="462c0819:PsiDirectoryNode" />
-              <item name="survey_form" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MEAN Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MEAN Course" type="462c0819:PsiDirectoryNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="socket" type="462c0819:PsiDirectoryNode" />
-              <item name="survey_form" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MEAN Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MEAN Course" type="462c0819:PsiDirectoryNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="socket" type="462c0819:PsiDirectoryNode" />
-              <item name="survey_form" type="462c0819:PsiDirectoryNode" />
+              <item name="chatroom" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -205,7 +266,33 @@
               <item name="MEAN Course" type="462c0819:PsiDirectoryNode" />
               <item name="assignments" type="462c0819:PsiDirectoryNode" />
               <item name="socket" type="462c0819:PsiDirectoryNode" />
-              <item name="survey_form" type="462c0819:PsiDirectoryNode" />
+              <item name="chatroom" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MEAN Course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MEAN Course" type="462c0819:PsiDirectoryNode" />
+              <item name="assignments" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
+              <item name="chatroom" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MEAN Course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MEAN Course" type="462c0819:PsiDirectoryNode" />
+              <item name="assignments" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
+              <item name="chatroom" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MEAN Course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MEAN Course" type="462c0819:PsiDirectoryNode" />
+              <item name="assignments" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
+              <item name="chatroom" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -216,20 +303,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="JavaScript" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\moequ\Documents\Coding_Dojo\MEAN Course\assignments\socket\chatroom\static" />
+      <recent name="C:\Users\moequ\Documents\Coding_Dojo\MEAN Course\assignments\socket\chatroom\views" />
+      <recent name="C:\Users\moequ\Documents\Coding_Dojo\MEAN Course\assignments\socket\chatroom" />
       <recent name="C:\Users\moequ\Documents\Coding_Dojo\MEAN Course\assignments\socket\survey_form\public\styles" />
       <recent name="C:\Users\moequ\Documents\Coding_Dojo\MEAN Course\assignments\express\survey_form\static" />
-      <recent name="C:\Users\moequ\Documents\Coding_Dojo\MEAN Course\assignments\express\survey_form" />
-      <recent name="C:\Users\moequ\Documents\Coding_Dojo\MEAN Course\assignments\express\cars_and_cats\static\images" />
-      <recent name="C:\Users\moequ\Documents\Coding_Dojo\MEAN Course\assignments\express\cars_and_cats\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -263,18 +352,19 @@
       <workItem from="1534632388562" duration="5850000" />
       <workItem from="1534912686790" duration="3154000" />
       <workItem from="1534982659296" duration="3174000" />
-      <workItem from="1534997927103" duration="5588000" />
+      <workItem from="1534997927103" duration="6855000" />
+      <workItem from="1535075268235" duration="39186000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40145000" />
+    <option name="totallyTimeSpent" value="80598000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1272" y="0" width="1289" height="1408" extended-state="0" />
+    <frame x="-7" y="0" width="1294" height="1385" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2284345" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2283214" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -282,7 +372,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.18160377" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.18494795" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -300,104 +390,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assignments/javascript_scroll.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/javascript_hoisting.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="140" column="4" selection-start-line="140" selection-start-column="4" selection-end-line="140" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/ninja_class_1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/deck_of_cards.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="51" column="25" lean-forward="true" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/ninja_class_3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/ninja_class_2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/bst.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="14" column="92" selection-start-line="14" selection-start-column="92" selection-end-line="14" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/javascript_library.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="45" column="28" lean-forward="true" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/dojo_query.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/node/landing_page/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/node/landing_page/dojos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/node/landing_page/ninjas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/dojo_query.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/fib_nacci.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/node/landing_page/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -437,13 +429,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
           <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/node/cars_and_cats/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -562,31 +547,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/socket/survey_form/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="12" column="93" lean-forward="true" selection-start-line="12" selection-start-column="93" selection-end-line="12" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/express/survey_form/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/socket/survey_form/public/index.html" />
     <entry file="file://$PROJECT_DIR$/assignments/express/survey_form/static/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -597,10 +562,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/socket/survey_form/public/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/socket/chatroom/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/socket/survey_form/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/socket/chatroom/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/node/cars_and_cats/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/express/cars_and_cats/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
+        <state relative-caret-position="308">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/express/survey_form/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/socket/survey_form/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="8" column="215" selection-start-line="8" selection-start-column="215" selection-end-line="8" selection-end-column="215" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/socket/survey_form/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -611,31 +628,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/socket/survey_form/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="17" column="76" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/socket/survey_form/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        <state relative-caret-position="532">
+          <caret line="19" column="2" selection-end-line="19" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/socket/survey_form/public/styles/main.css">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        <state relative-caret-position="905">
+          <caret line="74" column="7" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="74" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/socket/survey_form/views/index.ejs">
+    <entry file="file://D:/Documents/socket/socket.io-master/examples/chat/public/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/Documents/socket/socket.io-master/examples/chat/public/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/socket/chatroom/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="31" column="121" selection-start-line="31" selection-start-column="121" selection-end-line="31" selection-end-column="121" />
+        <state relative-caret-position="112">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Documents/socket/socket.io-master/examples/chat/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="31" column="36" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Documents/socket/socket.io-master/examples/chat/public/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="734">
+          <caret line="49" column="27" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/socket/chatroom/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="55" column="19" lean-forward="true" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/socket/chatroom/views/chatroom.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="110" column="22" lean-forward="true" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/socket/chatroom/static/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="896">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/socket/chatroom/static/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="39" column="16" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/socket/chatroom/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
         </state>
       </provider>
     </entry>

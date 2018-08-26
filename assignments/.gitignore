@@ -1,4 +1,5 @@
 .gitignore
 /node_modules
 /survey_form/node_modules
-/socket//survey_form/node_modules
+/socket/survey_form/node_modules
+/socket/chatroom/node_modules
