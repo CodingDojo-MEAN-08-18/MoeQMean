@@ -4,8 +4,8 @@
 .row {
     margin-bottom: 20px;
 }
-#userForm,
 .message,
+.online-box,
 .message-box,
 .title{
     width: 100%;
@@ -13,9 +13,11 @@
     display: block;
     margin: 0 auto;
     border: 2px solid #000;
+}
+.title,
+.message{
     padding: 20px;
 }
-
 .message-box {
     max-height: 400px;
     min-height: 400px;
@@ -50,4 +52,25 @@
 }
 .row.hidden {
     display: none;
+}
+.your-txt {
+    color: #0075c9;
+    font-weight: 700;
+}
+.their-txt {
+    color: #e74c3c;
+    font-weight: 700;
+}
+.current-online {
+    font-weight: 700;
+    font-size: 1.5em;
+    background: #0075c9;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+.online {
+    padding: 0 20px 20px;
+    max-height: 100px;
+    overflow-y: scroll;
 }

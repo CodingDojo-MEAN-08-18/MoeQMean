@@ -48,13 +48,14 @@ module.exports = function Route(app, server) {
             io.sockets.emit('login', {
                 numUsers: numUsers,
                 user: username.name,
-                lastUser: last
+                lastUser: last,
+                usersList: user_list
             });
 
         });
 
         socket.on('new_message', (data) => {
-            console.log(data);
+
             socket.broadcast.emit('new message', {
                 username: data.user,
                 message: data.msg,
@@ -67,18 +68,18 @@ module.exports = function Route(app, server) {
             });
         });
 
-        socket.on('user left', function(data) {
-            console.log(data.user, ' has disconnected');
-        });
-
         socket.on('disconnect', (data) => {
             if (addedUser) {
                 --numUsers;
 
+                // remove user from array list
+                user_list.indexOf(socket.nickname) !== -1 && user_list.splice(user_list.indexOf(socket.nickname), 1);
+
                 // echo globally that this client has left
                 socket.broadcast.emit('user left', {
                     username: socket.nickname,
-                    numUsers: numUsers
+                    numUsers: numUsers,
+                    usersList: user_list
                 });
             }
 
