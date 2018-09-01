@@ -4,6 +4,7 @@
     <list default="true" id="2dbd0afd-2546-4a37-bd60-765a5a11904b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assignments/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/MongoDB/Mongoose/quoting_dojo/views/quotes.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/MongoDB/Mongoose/quoting_dojo/views/quotes.ejs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,46 +19,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/MongoDB/Mongoose/quoting_dojo/views/index.ejs">
+        <entry file="file://$PROJECT_DIR$/assignments/MongoDB/Mongoose/mongoose_dashboard/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+            <state relative-caret-position="616">
+              <caret line="41" column="95" selection-start-line="41" selection-start-column="95" selection-end-line="41" selection-end-column="95" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/MongoDB/Mongoose/quoting_dojo/static/styles/main.css">
+      <file leaf-file-name="wolf.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignments/MongoDB/Mongoose/mongoose_dashboard/views/wolf.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assignments/MongoDB/Mongoose/quoting_dojo/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/express/cars_and_cats/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-28">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/MongoDB/Mongoose/basic_mongoose_app/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="27" selection-end-column="7" />
+            <state relative-caret-position="573">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -65,17 +39,53 @@
       <file leaf-file-name="quotes.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignments/MongoDB/Mongoose/quoting_dojo/views/quotes.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+            <state relative-caret-position="357">
+              <caret line="30" column="18" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="30" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="catso.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/express/cars_and_cats/views/catso.ejs">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignments/MongoDB/Mongoose/mongoose_dashboard/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="812">
-              <caret line="32" column="19" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="32" selection-end-column="19" />
+            <state relative-caret-position="-1820">
+              <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assignments/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wolf_edit.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignments/MongoDB/Mongoose/mongoose_dashboard/views/wolf_edit.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignments/MongoDB/Mongoose/mongoose_dashboard/static/styles/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wolf_new.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignments/MongoDB/Mongoose/mongoose_dashboard/views/wolf_new.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="28" column="23" lean-forward="true" selection-end-line="63" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -84,7 +94,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>user.app</find>
       <find>user.appe</find>
       <find>post</find>
       <find>users-online&quot;</find>
@@ -114,6 +123,7 @@
       <find>current</find>
       <find>online</find>
       <find>app.use(flash());</find>
+      <find>wolves</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -125,12 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assignments/node/cars_and_cats/views/cars.html" />
-        <option value="$PROJECT_DIR$/assignments/node/cars_and_cats/views/cars_new.html" />
-        <option value="$PROJECT_DIR$/assignments/node/cars_and_cats/views/cats.html" />
-        <option value="$PROJECT_DIR$/assignments/node/cars_and_cats/stylesheets/style.css" />
-        <option value="$PROJECT_DIR$/assignments/node/cars_and_cats/views/index.html" />
-        <option value="$PROJECT_DIR$/assignments/node/math_module/math_module.js" />
         <option value="$PROJECT_DIR$/assignments/node/math_module/app.js" />
         <option value="$PROJECT_DIR$/assignments/express/cars_and_cats/views/users.js" />
         <option value="$PROJECT_DIR$/assignments/express/cars_and_cats/static/cats.html" />
@@ -171,11 +175,17 @@
         <option value="$PROJECT_DIR$/assignments/MongoDB/Mongoose/basic_mongoose_app/static/styles/main.css" />
         <option value="$PROJECT_DIR$/assignments/MongoDB/Mongoose/basic_mongoose_app/views/index.ejs" />
         <option value="$PROJECT_DIR$/assignments/MongoDB/Mongoose/basic_mongoose_app/server.js" />
-        <option value="$PROJECT_DIR$/assignments/.gitignore" />
-        <option value="$PROJECT_DIR$/assignments/MongoDB/Mongoose/quoting_dojo/views/index.ejs" />
         <option value="$PROJECT_DIR$/assignments/MongoDB/Mongoose/quoting_dojo/static/styles/main.css" />
-        <option value="$PROJECT_DIR$/assignments/MongoDB/Mongoose/quoting_dojo/views/quotes.ejs" />
         <option value="$PROJECT_DIR$/assignments/MongoDB/Mongoose/quoting_dojo/server.js" />
+        <option value="$PROJECT_DIR$/assignments/MongoDB/Mongoose/quoting_dojo/views/quotes.ejs" />
+        <option value="$PROJECT_DIR$/assignments/MongoDB/Mongoose/quoting_dojo/views/index.ejs" />
+        <option value="$PROJECT_DIR$/assignments/MongoDB/Mongoose/mongoose_dashboard/views/wolf_new.ejs" />
+        <option value="$PROJECT_DIR$/assignments/MongoDB/Mongoose/mongoose_dashboard/views/wolf.ejs" />
+        <option value="$PROJECT_DIR$/assignments/MongoDB/Mongoose/mongoose_dashboard/views/wolf_edit.ejs" />
+        <option value="$PROJECT_DIR$/assignments/MongoDB/Mongoose/mongoose_dashboard/views/index.ejs" />
+        <option value="$PROJECT_DIR$/assignments/MongoDB/Mongoose/mongoose_dashboard/static/styles/main.css" />
+        <option value="$PROJECT_DIR$/assignments/MongoDB/Mongoose/mongoose_dashboard/server.js" />
+        <option value="$PROJECT_DIR$/assignments/.gitignore" />
       </list>
     </option>
   </component>
@@ -187,6 +197,7 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/assignments/MongoDB/Mongoose/basic_mongoose_app/node_modules" />
+    <handled-path value="$PROJECT_DIR$/assignments/MongoDB/Mongoose/mongoose_dashboard/node_modules" />
     <handled-path value="$PROJECT_DIR$/assignments/MongoDB/Mongoose/quoting_dojo/node_modules" />
     <handled-path value="$PROJECT_DIR$/assignments/express/cars_and_cats/node_modules" />
     <handled-path value="$PROJECT_DIR$/assignments/express/counter/node_modules" />
@@ -196,8 +207,8 @@
     <handled-path value="$PROJECT_DIR$/assignments/socket/survey_form/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1909" />
-    <option name="width" value="1940" />
+    <option name="x" value="-11" />
+    <option name="width" value="1934" />
     <option name="height" value="2111" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -225,27 +236,6 @@
               <item name="MEAN Course" type="b2602c69:ProjectViewProjectNode" />
               <item name="MEAN Course" type="462c0819:PsiDirectoryNode" />
               <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="express" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MEAN Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MEAN Course" type="462c0819:PsiDirectoryNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="express" type="462c0819:PsiDirectoryNode" />
-              <item name="cars_and_cats" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MEAN Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MEAN Course" type="462c0819:PsiDirectoryNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="express" type="462c0819:PsiDirectoryNode" />
-              <item name="cars_and_cats" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MEAN Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MEAN Course" type="462c0819:PsiDirectoryNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
               <item name="MongoDB" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -261,35 +251,7 @@
               <item name="assignments" type="462c0819:PsiDirectoryNode" />
               <item name="MongoDB" type="462c0819:PsiDirectoryNode" />
               <item name="Mongoose" type="462c0819:PsiDirectoryNode" />
-              <item name="quoting_dojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MEAN Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MEAN Course" type="462c0819:PsiDirectoryNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="MongoDB" type="462c0819:PsiDirectoryNode" />
-              <item name="Mongoose" type="462c0819:PsiDirectoryNode" />
-              <item name="quoting_dojo" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MEAN Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MEAN Course" type="462c0819:PsiDirectoryNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="MongoDB" type="462c0819:PsiDirectoryNode" />
-              <item name="Mongoose" type="462c0819:PsiDirectoryNode" />
-              <item name="quoting_dojo" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MEAN Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MEAN Course" type="462c0819:PsiDirectoryNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="MongoDB" type="462c0819:PsiDirectoryNode" />
-              <item name="Mongoose" type="462c0819:PsiDirectoryNode" />
-              <item name="quoting_dojo" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="mongoose_dashboard" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -310,12 +272,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\moequ\Documents\Coding_Dojo\MEAN Course\assignments\MongoDB\Mongoose\mongoose_dashboard\views" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\moequ\Documents\Coding_Dojo\MEAN Course\assignments\MongoDB\Mongoose\mongoose_dashboard\static\styles" />
+      <recent name="C:\Users\moequ\Documents\Coding_Dojo\MEAN Course\assignments\MongoDB\Mongoose\mongoose_dashboard" />
       <recent name="C:\Users\moequ\Documents\Coding_Dojo\MEAN Course\assignments\MongoDB\Mongoose\quoting_dojo" />
       <recent name="C:\Users\moequ\Documents\Coding_Dojo\MEAN Course\assignments\socket\chatroom\static" />
       <recent name="C:\Users\moequ\Documents\Coding_Dojo\MEAN Course\assignments\socket\chatroom\views" />
-      <recent name="C:\Users\moequ\Documents\Coding_Dojo\MEAN Course\assignments\socket\chatroom" />
-      <recent name="C:\Users\moequ\Documents\Coding_Dojo\MEAN Course\assignments\socket\survey_form\public\styles" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -352,18 +317,18 @@
       <workItem from="1534997927103" duration="6855000" />
       <workItem from="1535075268235" duration="41153000" />
       <workItem from="1535341023197" duration="4611000" />
-      <workItem from="1535595779440" duration="6157000" />
+      <workItem from="1535595779440" duration="12081000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93333000" />
+    <option name="totallyTimeSpent" value="99257000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1273" y="0" width="1293" height="1407" extended-state="0" />
+    <frame x="-7" y="0" width="1289" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22850318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22923322" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -389,37 +354,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assignments/express/cars_and_cats/static/cars.html" />
-    <entry file="file://$PROJECT_DIR$/assignments/express/cars_and_cats/static/cats.html" />
-    <entry file="file://$PROJECT_DIR$/assignments/express/cars_and_cats/static/form.html" />
-    <entry file="file://$PROJECT_DIR$/assignments/express/cars_and_cats/views/cars.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/express/cars_and_cats/views/form.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/express/cars_and_cats/static/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="10" column="32" selection-end-line="40" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/express/cars_and_cats/views/cats.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/express/cars_and_cats/views/hipster.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
@@ -635,13 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/MongoDB/Mongoose/basic_mongoose_app/static/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -673,17 +600,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/express/cars_and_cats/server.js">
+    <entry file="file://$PROJECT_DIR$/assignments/MongoDB/Mongoose/mongoose_dashboard/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="588">
+          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/MongoDB/Mongoose/quoting_dojo/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        <state relative-caret-position="560">
+          <caret line="37" column="53" lean-forward="true" selection-end-line="60" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -694,17 +621,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/MongoDB/Mongoose/quoting_dojo/views/quotes.ejs">
+    <entry file="file://$PROJECT_DIR$/assignments/MongoDB/Mongoose/quoting_dojo/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        <state relative-caret-position="517">
+          <caret line="66" column="30" selection-end-line="76" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/MongoDB/Mongoose/quoting_dojo/server.js">
+    <entry file="file://$PROJECT_DIR$/assignments/express/cars_and_cats/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+        <state relative-caret-position="-28">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/MongoDB/Mongoose/quoting_dojo/views/quotes.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="30" column="18" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="30" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/MongoDB/Mongoose/mongoose_dashboard/views/wolf_new.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="28" column="23" lean-forward="true" selection-end-line="63" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/MongoDB/Mongoose/mongoose_dashboard/views/wolf_edit.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/MongoDB/Mongoose/mongoose_dashboard/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="41" column="95" selection-start-line="41" selection-start-column="95" selection-end-line="41" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/MongoDB/Mongoose/mongoose_dashboard/static/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/MongoDB/Mongoose/mongoose_dashboard/views/wolf.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/MongoDB/Mongoose/mongoose_dashboard/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1820">
+          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
         </state>
       </provider>
     </entry>
