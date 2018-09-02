@@ -1,0 +1,51 @@
+.container {
+    margin-top: 40px;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+.col-12.title {
+    border-bottom: 2px solid #000000;
+}
+form {
+    display: block;
+}
+input.form-control {
+    max-width: 200px;
+    border-radius: 0;
+    border: 2px solid #000000;
+}
+textarea.form-control {
+    border-radius: 0;
+    border: 2px solid #000000;
+    max-height: 150px;
+    min-height: 100px;
+}
+.gray {
+    color: #777777;
+}
+.blue {
+    color: #0075c9;
+    text-align: right;
+}
+.errors {
+    color: #e74c3c;
+}
+.message-box {
+    background: #efefef;
+    padding: 10px 20px;
+}
+.message-box.center {
+    margin: 0 auto;
+}
+.comment-box {
+    margin: 40px auto;
+    padding: 0 30px;
+}
+.delete {
+    margin: 0 0 20px 0;
+}
+.edit {
+    margin-bottom: 20px;
+}
