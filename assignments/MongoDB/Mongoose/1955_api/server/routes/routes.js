@@ -15,11 +15,11 @@ module.exports = function(app) {
     });
     app.get('/new/:name', function(req, res) {
         const newUser = new User({name: req.params.name});
-        newUser.save(function(err){
+        newUser.save(function(err, data){
             if (err) {
                 res.json({message: "Error", error: err});
             } else {
-                res.redirect('/');
+                res.json({message: "Success: ", data});
             }
         });
     });
