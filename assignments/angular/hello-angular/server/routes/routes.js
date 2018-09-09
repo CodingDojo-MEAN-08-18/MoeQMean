@@ -1,13 +1,11 @@
 const bodyParser = require('body-parser'),
-    User = require('../models/1955.js');
-const express = require('express');
-const path = require('path');
+    Task = require('../models/task.js');
 
 module.exports = function(app) {
     app.use(bodyParser.json());
 
-    app.get('/users', function (req, res) {
-      User.find({}, function(err, data) {
+    app.get('/task', function (req, res) {
+      Task.find({}, function(err, data) {
         if (err) {
           res.json({message: "Error", error: err});
         } else {
@@ -15,9 +13,9 @@ module.exports = function(app) {
         }
       });
     });
-    app.get('/new/:name', function(req, res) {
-        const newUser = new User({name: req.params.name});
-        newUser.save(function(err, data){
+    app.get('/new/:task', function(req, res) {
+        const newTask = new Task({task: req.params.task});
+        newTask.save(function(err, data){
             if (err) {
                 res.json({message: "Error", error: err});
             } else {
@@ -25,8 +23,8 @@ module.exports = function(app) {
             }
         });
     });
-    app.get('/remove/:name', function(req, res) {
-        User.remove({name: req.params.name}, function(err, data) {
+    app.get('/remove/:task', function(req, res) {
+        Task.remove({task: req.params.task}, function(err, data) {
             if (err) {
                 res.json({message: "Error", error: err})
             } else {
@@ -34,8 +32,8 @@ module.exports = function(app) {
             }
         });
     });
-    app.get('/:name', function(req, res) {
-        User.findOne({name: req.params.name}, function(err, data) {
+    app.get('/:task', function(req, res) {
+        Task.findOne({task: req.params.task}, function(err, data) {
             if (err) {
                 res.json({message: "Error", error: err});
             } else {
