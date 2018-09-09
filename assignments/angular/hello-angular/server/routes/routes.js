@@ -4,7 +4,7 @@ const bodyParser = require('body-parser'),
 module.exports = function(app) {
     app.use(bodyParser.json());
 
-    app.get('/task', function (req, res) {
+    app.get('/tasks', function (req, res) {
       Task.find({}, function(err, data) {
         if (err) {
           res.json({message: "Error", error: err});
