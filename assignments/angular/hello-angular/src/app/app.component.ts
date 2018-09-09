@@ -8,5 +8,9 @@ import { HttpService} from "./http.service";
 })
 export class AppComponent {
   title = 'MEAN Stack';
-  constructor(private _httpService: HttpService){}
+
+  constructor(public _httpService: HttpService){
+    this._httpService.getPokemon();
+    this._httpService.getPokemonAbility(65);
+  }
 }

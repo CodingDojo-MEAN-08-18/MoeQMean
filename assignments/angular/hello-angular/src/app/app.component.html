@@ -1,6 +1,15 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
+<div style="text-align:center" *ngIf="_httpService">
   <h1>
     Welcome to {{ title }}!
   </h1>
+  <br />
+  <h3>We got a pokemon!</h3>
+  <p><strong>Name:</strong></p>
+  <p>{{ _httpService.pokeData.name }}</p>
+  <p><strong>Abilities:</strong></p>
+  <p *ngFor="let ability of _httpService.pokeData.abilities"> {{ ability.ability.name }}</p>
+  <p *ngIf="_httpService.abilityData.pokemon">
+    <strong>There are {{ _httpService.abilityData.pokemon.length }} pokemons with the same ability!</strong>
+  </p>
 </div>
