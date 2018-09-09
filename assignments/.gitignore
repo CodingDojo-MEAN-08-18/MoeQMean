@@ -10,3 +10,4 @@
 /MongoDB/Mongoose/message_board/node_modules
 /MongoDB/Mongoose/1955_api/node_modules
 /angular/hello-angular/node_modules
+/angular/*/node_modules
