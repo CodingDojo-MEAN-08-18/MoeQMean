@@ -38,15 +38,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/books-api/server/routes/routes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hello-angular/src/app/app.component.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -89,11 +80,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.component.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.component.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hello-angular/src/app/app.component.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="562">
               <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hello-angular/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="28">
+              <caret line="1" column="45" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -152,6 +152,7 @@
         <option value="$PROJECT_DIR$/hello-angular/src/app/http.service.ts" />
         <option value="$PROJECT_DIR$/hello-angular/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/hello-angular/src/app/app.component.scss" />
+        <option value="$PROJECT_DIR$/hello-angular/README.md" />
       </list>
     </option>
   </component>
@@ -269,12 +270,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536476672931</updated>
-      <workItem from="1536476674256" duration="20063000" />
+      <workItem from="1536476674256" duration="20422000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20063000" />
+    <option name="totallyTimeSpent" value="20422000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1319" y="0" width="1243" height="1407" extended-state="0" />
@@ -498,6 +499,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="562">
           <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-angular/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" column="45" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
         </state>
       </provider>
     </entry>
