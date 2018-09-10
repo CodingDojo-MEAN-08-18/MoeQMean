@@ -6,6 +6,28 @@
 </div>
 <br />
 <div class="restful-data">
+  <h1>RESTful Tasks API Interactive</h1>
+  <button (click)="getAllTasks()" class="getBtn">Get All Tasks</button>
+  <div class="show-box" *ngIf="allTasks">
+    <div *ngFor="let x of allTasks.data">
+      <p>{{ x.task }} </p>
+      <button (click)="showDetails(x.task)" class="showBtn">Show</button>
+    </div>
+  </div>
+  <div class="details-box" *ngIf="details">
+    <h3 class="details-txt">
+      {{ details.data.task }}
+    </h3>
+    <h3>Details:</h3>
+    <div>
+      <p>{{ details.data.details }}</p>
+      <p class="text-center" *ngIf="!details.data.details ">No details set or found.</p>
+    </div>
+  </div>
+</div>
+<br />
+<hr>
+<div class="restful-data">
   <h1>RESTful Tasks API</h1>
   <h2>All tasks:</h2>
   <ol>

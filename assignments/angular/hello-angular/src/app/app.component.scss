@@ -8,4 +8,53 @@
       text-align: left;
     }
   }
+  .getBtn{
+    background: #0075c9;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .details-box {
+    max-width: 300px;
+    display: block;
+    margin: 10px auto 0;
+    border: 2px solid #05b305;
+    padding: 0 25px;
+    .details-txt {
+      text-transform: capitalize;
+    }
+  }
+}
+.text-center {
+  text-align: center !important;
+}
+.show-box {
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
+  text-align: left;
+  div {
+    margin-bottom: 15px;
+  }
+  p,
+  button.showBtn{
+    display: inline-block;
+  }
+  p {
+    margin-right: 10px;
+  }
+}
+.showBtn {
+  background: #009688;
+  border: 0;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  font-weight: 700;
+  color: #fff;
+  float: right;
 }

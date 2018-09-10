@@ -15,8 +15,9 @@ export class HttpService {
     return this._http.get('/tasks');
   }
   getSingleTask(task){
-    let tempObservable = this._http.get('/'+ task);
-    tempObservable.subscribe(data => console.log('Got single task: ', data));
+    // let tempObservable = this._http.get('/'+ task);
+    // tempObservable.subscribe(data => console.log('Got single task: ', data));
+    return this._http.get('/'+ task);
   }
   newTask(task){
     let tempObservable = this._http.get('/new/'+ task);

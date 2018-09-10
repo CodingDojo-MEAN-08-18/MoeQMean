@@ -23,6 +23,15 @@ module.exports = function(app) {
             }
         });
     });
+    app.get('/:task/:details', function(req, res) {
+      Task.findOneAndUpdate({task: req.params.task}, {$push: {details: req.params.details}}, function(err, data) {
+        if (err) {
+          res.json({message: "Error", error: err});
+        } else {
+          res.json({message: "Success: ", data});
+        }
+      })
+    });
     app.get('/remove/:task', function(req, res) {
         Task.remove({task: req.params.task}, function(err, data) {
             if (err) {
