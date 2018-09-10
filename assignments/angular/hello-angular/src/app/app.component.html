@@ -3,8 +3,22 @@
   <h1>
     Welcome to {{ title }}!
   </h1>
+</div>
+<br />
+<div class="restful-data">
+  <h1>RESTful Tasks API</h1>
+  <h2>All tasks:</h2>
+  <ol>
+    <li *ngFor="let x of taskData.data">{{ x.task }}</li>
+  </ol>
   <br />
-  <h3>We got a pokemon!</h3>
+  <h2>The third task:</h2>
+  <p>{{ taskData.data[2].task}} </p>
+</div>
+<br />
+<hr>
+<div class="restful-data">
+  <h1>Pokemon Data:</h1>
   <p><strong>Name:</strong></p>
   <p>{{ _httpService.pokeData.name }}</p>
   <p><strong>Abilities:</strong></p>

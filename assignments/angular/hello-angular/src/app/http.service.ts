@@ -7,16 +7,12 @@ import { HttpClient } from "@angular/common/http";
 export class HttpService {
   pokeData = {};
   abilityData = {};
+  taskData = {};
 
-  constructor(private _http: HttpClient) {
-    this.getTasks();
-    this.getSingleTask('clean your room');
-    // this.newTask('go to work');
-  }
+  constructor(private _http: HttpClient) {}
 
   getTasks() {
-    let tempObservable = this._http.get('/tasks');
-    tempObservable.subscribe(data => console.log('Got our tasks: ', data));
+    return this._http.get('/tasks');
   }
   getSingleTask(task){
     let tempObservable = this._http.get('/'+ task);
