@@ -1,0 +1,21 @@
+<div class="row">
+  <div class="col-12">
+    <div class="text-center">
+      <h1>Chicago, IL</h1>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md" *ngIf="weatherData.main">
+    <div class="data-box">
+      <h3>Humidity: {{ weatherData.main.humidity }}</h3>
+      <h3>Temp. (Avg): {{ weatherData.main.temp }}</h3>
+      <h3>Temp. (High): {{ weatherData.main.temp_max }}</h3>
+      <h3>Temp. (Low): {{ weatherData.main.temp_min }}</h3>
+      <h3>Status: {{ weatherData.weather[0].description }}</h3>
+    </div>
+  </div>
+  <div class="col-md">
+    <img class="img-fluid" src="https://images.cdn.circlesix.co/image/1/1000/0/uploads/posts/2016/07/acf088dcf1797a16c0e63b694ae3c603.jpg" alt="Chicago IL">
+  </div>
+</div>

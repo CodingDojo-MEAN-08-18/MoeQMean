@@ -1,0 +1,21 @@
+<div class="row">
+  <div class="col-12">
+    <div class="text-center">
+      <h1>Washington, DC</h1>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md" *ngIf="weatherData.main">
+    <div class="data-box">
+      <h3>Humidity: {{ weatherData.main.humidity }}</h3>
+      <h3>Temp. (Avg): {{ weatherData.main.temp }}</h3>
+      <h3>Temp. (High): {{ weatherData.main.temp_max }}</h3>
+      <h3>Temp. (Low): {{ weatherData.main.temp_min }}</h3>
+      <h3>Status: {{ weatherData.weather[0].description }}</h3>
+    </div>
+  </div>
+  <div class="col-md">
+    <img class="img-fluid" src="https://cdn.aarp.net/content/dam/aarp/travel/destination-guides/2018/03/1140-trv-dst-dc-main.imgcache.revd66f01d4a19adcecdb09fdacd4471fa8.web.652.375.jpg" alt="Washington DC">
+  </div>
+</div>

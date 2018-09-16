@@ -1,0 +1,21 @@
+<div class="row">
+  <div class="col-12">
+    <div class="text-center">
+      <h1>Burbank, CA</h1>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md" *ngIf="weatherData.main">
+    <div class="data-box">
+      <h3>Humidity: {{ weatherData.main.humidity }}</h3>
+      <h3>Temp. (Avg): {{ weatherData.main.temp }}</h3>
+      <h3>Temp. (High): {{ weatherData.main.temp_max }}</h3>
+      <h3>Temp. (Low): {{ weatherData.main.temp_min }}</h3>
+      <h3>Status: {{ weatherData.weather[0].description }}</h3>
+    </div>
+  </div>
+  <div class="col-md">
+    <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Burbank_media_district_from_Griffith_Park_2015-11-07.jpg/1200px-Burbank_media_district_from_Griffith_Park_2015-11-07.jpg" alt="Burbank CA">
+  </div>
+</div>
