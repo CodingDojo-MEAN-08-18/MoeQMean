@@ -1,0 +1,59 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <h1 class="text-center">
+        Welcome to {{ pageTitle }}!
+      </h1>
+      <p class="text-center">-By Moe Quraishi</p>
+    </div>
+  </div>
+  <!-- New Tasks -->
+  <div class="row">
+    <div class="col-12">
+      <h1>New Task</h1>
+      <br />
+      <form action="/new" method="post" class="task-box clearfix">
+        <div class="form-group">
+          <label for="title">Title</label>
+          <input required [(ngModel)]="title" class="form-control" type="text" name="title" id="title">
+        </div>
+        <div class="form-group">
+          <label for="desc">Description</label>
+          <input required [(ngModel)]="desc" class="form-control" type="text" name="desc" id="desc">
+        </div>
+        <!--<input type="submit" value="create" class="btn btn-success float-right">-->
+        <button type="submit" (click)="newTask()" class="btn btn-success float-right">Create</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="row">
+    <!-- List of Tasks -->
+    <div class="col-md-6" *ngIf="taskData">
+      <h2>Task List</h2>
+      <div class="task-list-box" *ngFor="let data of taskData">
+        <h4>{{data.title}}</h4>
+        <p>{{data.description}}</p>
+
+        <button (click)="getSingleTask(data._id)" class="btn btn-secondary editBtn">Edit</button>
+        <button (click)="deleteTask(data._id)" class="btn btn-danger deleteBtn">Delete</button>
+      </div>
+    </div>
+    <!-- Edit Tasks -->
+    <div class="col-md-6" *ngIf="singleData">
+      <h2>Edit a Task</h2>
+
+      <div class="task-box clearfix">
+        <div class="form-group">
+          <label for="updateTitle">Title</label>
+          <input class="form-control" type="text" [(ngModel)]="updateTitle" name="title" id="updateTitle">
+        </div>
+        <div class="form-group">
+          <label for="updateDesc">Description</label>
+          <input class="form-control" type="text" [(ngModel)]="updateDesc" name="desc" id="updateDesc">
+        </div>
+        <button (click)="updateTask(singleData._id)" class="btn btn-secondary editBtn float-right">Edit</button>
+      </div>
+    </div>
+  </div>
+</div>

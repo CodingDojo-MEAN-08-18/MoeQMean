@@ -1,0 +1,21 @@
+.task-box {
+  max-width: 400px;
+}
+.task-list-box{
+  margin-bottom: 20px;
+  border: 2px solid #000000;
+  padding: 10px;
+}
+.row {
+  margin-bottom: 20px;
+}
+.container {
+  padding-top: 50px;
+}
+.editBtn,
+.deleteBtn {
+  display: block;
+}
+.editBtn{
+  margin-bottom: 10px;
+}
