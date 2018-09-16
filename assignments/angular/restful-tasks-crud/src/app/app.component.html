@@ -31,7 +31,7 @@
     <!-- List of Tasks -->
     <div class="col-md-6" *ngIf="taskData">
       <h2>Task List</h2>
-      <div class="task-list-box" *ngFor="let data of taskData">
+      <div class="task-list-box" *ngFor="let data of taskData.data">
         <h4>{{data.title}}</h4>
         <p>{{data.description}}</p>
 

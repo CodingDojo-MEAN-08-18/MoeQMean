@@ -33,10 +33,7 @@ export class AppComponent {
   getTask() {
     let observable = this.httpService.getTasks();
     observable.subscribe(data => {
-      if (data.data) {
-        this.taskData = data.data;
-        console.log(this.taskData);
-      }
+      this.taskData = data;
     });
   }
 
