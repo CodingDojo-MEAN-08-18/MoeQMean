@@ -17,8 +17,8 @@
       <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/restful-tasks-crud/src/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="35" column="19" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="19" />
+            <state relative-caret-position="252">
+              <caret line="45" column="7" lean-forward="true" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -59,8 +59,8 @@
       <file leaf-file-name="app.component.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/restful-tasks-crud/src/app/app.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+            <state relative-caret-position="616">
+              <caret line="54" column="52" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -122,8 +122,9 @@
       <find>boot</find>
       <find>bootstrap</find>
       <find>golds</find>
-      <find>taskData</find>
       <find>updateTask</find>
+      <find>taskData</find>
+      <find>singleData</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -299,12 +300,12 @@
       <workItem from="1536476674256" duration="21036000" />
       <workItem from="1536719477033" duration="5040000" />
       <workItem from="1536724784422" duration="10811000" />
-      <workItem from="1537068562815" duration="9918000" />
+      <workItem from="1537068562815" duration="10427000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46805000" />
+    <option name="totallyTimeSpent" value="47314000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1272" y="0" width="1294" height="1408" extended-state="0" />
@@ -690,8 +691,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/restful-tasks-crud/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="35" column="19" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="19" />
+        <state relative-caret-position="252">
+          <caret line="45" column="7" lean-forward="true" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
@@ -700,8 +701,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/restful-tasks-crud/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        <state relative-caret-position="616">
+          <caret line="54" column="52" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
         </state>
       </provider>
     </entry>

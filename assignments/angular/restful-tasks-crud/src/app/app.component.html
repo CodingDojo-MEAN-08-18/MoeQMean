@@ -40,7 +40,7 @@
       </div>
     </div>
     <!-- Edit Tasks -->
-    <div class="col-md-6" *ngIf="singleData">
+    <div class="col-md-6" *ngIf="singleData.data">
       <h2>Edit a Task</h2>
 
       <div class="task-box clearfix">
@@ -52,7 +52,7 @@
           <label for="updateDesc">Description</label>
           <input class="form-control" type="text" [(ngModel)]="updateDesc" name="desc" id="updateDesc">
         </div>
-        <button (click)="updateTask(singleData._id)" class="btn btn-secondary editBtn float-right">Edit</button>
+        <button (click)="updateTask(singleData.data._id)" class="btn btn-secondary editBtn float-right">Edit</button>
       </div>
     </div>
   </div>

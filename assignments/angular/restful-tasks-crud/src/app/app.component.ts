@@ -14,7 +14,7 @@ export class AppComponent {
   updateDesc: string;
 
   taskData: Object;
-  singleData: Object;
+  singleData: any = {};
 
   constructor(private httpService: HttpService) {
     this.getTask();
@@ -40,9 +40,9 @@ export class AppComponent {
   getSingleTask(id) {
     let observable = this.httpService.getSingleTask(id);
     observable.subscribe(data => {
-      this.singleData = data.data;
-      this.updateTitle = this.singleData.title;
-      this.updateDesc = this.singleData.description;
+      this.singleData = data;
+      this.updateTitle = this.singleData.data.title;
+      this.updateDesc = this.singleData.data.description;
     });
   }
 
