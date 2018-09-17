@@ -1,0 +1,28 @@
+.container {
+    padding-top: 50px;
+}
+.info-box {
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+.inner-box {
+    border: 2px solid #000000;
+    min-height: 400px;
+    clear: both;
+    position: relative;
+    top: 20px;
+}
+
+.bottom-links {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+.bottom-links li {
+    display: inline-block;
+    margin: 0 25px;
+    color: #0075c9;
+    font-weight: 700;
+    cursor: pointer;
+}
