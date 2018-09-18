@@ -15,12 +15,12 @@ export class HttpService {
     return this.http.get('/authors');
   }
   getSingleAuthor(id) {
-    return this.http.get('/edit'+ id);
+    return this.http.get('/edit/'+ id);
   }
-  updateTask(id, data) {
+  editAuthor(id, data) {
     return this.http.post('/edit/'+ id, data);
   }
-  deleteTask(id) {
+  deleteAuthor(id) {
     return this.http.post('/remove/'+ id, false);
   }
 }

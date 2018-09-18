@@ -9,6 +9,7 @@ import { HttpService } from "../http.service";
 })
 export class EditComponent implements OnInit {
   authorID:string;
+  authorData:any={};
 
   constructor(
     private router: Router,
@@ -18,13 +19,19 @@ export class EditComponent implements OnInit {
   ngOnInit() {
     this.authorID = this.route.snapshot.paramMap.get('id');
     console.log(this.authorID);
+    this.getSingleAuthor();
   }
 
   getSingleAuthor(){
     let ob = this.httpService.getSingleAuthor(this.authorID);
     ob.subscribe(data => {
-      console.log('Got single author')
-    })
+      console.log('Got single author', data);
+      this.authorData = data;
+    });
+  }
+
+  editAuthor() {
+    let ob = this.httpService.edit
   }
 
 }
