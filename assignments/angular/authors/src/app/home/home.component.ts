@@ -20,6 +20,15 @@ export class HomeComponent implements OnInit {
     observable.subscribe(data => {
       this.authorData = data;
       console.log(this.authorData);
+      this.authorData.data.sort(function(a, b) {
+        if ( a.name < b.name ){
+          return -1;
+        }else if( a.name > b.name ){
+          return 1;
+        }else{
+          return 0;
+        }
+      });
     })
   }
 
