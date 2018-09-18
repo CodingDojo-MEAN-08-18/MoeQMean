@@ -1,0 +1,11 @@
+<a routerLink="new">Add an author</a>
+<br />
+<p class="txt-blue">We have quotes by:</p>
+<div class="authors-box clearfix">
+  <h3>Author:</h3>
+  <div class="author-names" *ngFor="let x of authorData.data">
+    <p>{{x.name}}</p>
+    <button routerLink="edit/{{x._id}}" class="btn btn-secondary editBtn">Edit</button>
+    <button class="btn btn-danger deleteBtn">Delete</button>
+  </div>
+</div>

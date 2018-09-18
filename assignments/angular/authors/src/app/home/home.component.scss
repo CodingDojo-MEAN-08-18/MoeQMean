@@ -1,0 +1,23 @@
+.editBtn {
+  margin-right: 20px
+}
+.authors-box {
+  max-width: 400px;
+  border: 1px solid #dadada;
+  h3 {
+    padding: 10px;
+    background: #0075c9;
+    margin-bottom: 0;
+    color: #ffffff;
+  }
+  .author-names {
+    padding: 10px;
+    &:nth-child(even){
+      background: #efefef;
+    }
+    p {
+      font-weight: 700;
+      margin-bottom: 5px;
+    }
+  }
+}

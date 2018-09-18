@@ -1,0 +1,11 @@
+<a routerLink="/">Home</a>
+<br />
+<p class="txt-blue">Add a new author:</p>
+<form action="/new" method="post" class="author-form clearfix">
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input [(ngModel)]="name" type="text" name="name" id="name" class="form-control">
+  </div>
+  <a routerLink="/" class="btn btn-secondary float-left">Cancel</a>
+  <button (click)="newAuthor()" class="btn btn-primary float-right">Submit</button>
+</form>
