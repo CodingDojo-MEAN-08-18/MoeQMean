@@ -10,6 +10,7 @@ import { HttpService } from "../http.service";
 export class EditComponent implements OnInit {
   authorID:string;
   authorData:any={};
+  name:string;
 
   constructor(
     private router: Router,
@@ -27,11 +28,16 @@ export class EditComponent implements OnInit {
     ob.subscribe(data => {
       console.log('Got single author', data);
       this.authorData = data;
+      this.name = this.authorData.data.name;
     });
   }
 
   editAuthor() {
-    let ob = this.httpService.edit
+    let ob = this.httpService.editAuthor(this.authorID, {name: this.name});
+    ob.subscribe(data => {
+      console.log('Name edit success!', data);
+    });
+    this.router.navigate(['/']);
   }
 
 }

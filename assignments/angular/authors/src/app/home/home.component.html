@@ -6,6 +6,6 @@
   <div class="author-names" *ngFor="let x of authorData.data">
     <p>{{x.name}}</p>
     <button routerLink="edit/{{x._id}}" class="btn btn-secondary editBtn">Edit</button>
-    <button class="btn btn-danger deleteBtn">Delete</button>
+    <button (click)="deleteAuthor(x._id)" class="btn btn-danger deleteBtn">Delete</button>
   </div>
 </div>

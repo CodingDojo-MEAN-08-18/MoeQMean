@@ -4,7 +4,7 @@
 <form action="/edit/{{authorID}}" method="post" class="author-form clearfix">
   <div class="form-group" *ngIf="authorData.data">
     <label for="name">Name</label>
-    <input [(ngModel)]="authorData.data.name" type="text" name="name" id="name" class="form-control">
+    <input [(ngModel)]="name" type="text" name="name" id="name" class="form-control">
   </div>
   <a routerLink="/" class="btn btn-secondary float-left">Cancel</a>
   <button (click)="editAuthor()" class="btn btn-primary float-right">Submit</button>

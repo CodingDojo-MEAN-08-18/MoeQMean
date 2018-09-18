@@ -23,4 +23,12 @@ export class HomeComponent implements OnInit {
     })
   }
 
+  deleteAuthor(id){
+    let ob = this.httpService.deleteAuthor(id);
+    ob.subscribe(data => {
+      console.log('Delete success');
+      this.getAuthors();
+    })
+  }
+
 }

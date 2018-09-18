@@ -53,7 +53,7 @@ module.exports = function(app) {
       if(err) {
         console.log('error setting the data', err);
       } else {
-        console.log('Task updated!', data);
+        console.log('Author updated!', data);
       }
     });
   });
