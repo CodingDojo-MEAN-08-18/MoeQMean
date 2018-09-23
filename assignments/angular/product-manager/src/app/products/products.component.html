@@ -5,7 +5,7 @@
       <img class="img-responsive" src="{{x.imageUrl}}" alt="Product">
       <p>{{x.title}}</p>
       <p>${{x.price}}</p>
-      <button class="edit-btn">Edit</button>
+      <button routerLink="/product/edit/{{x._id}}" class="edit-btn">Edit</button>
       <button (click)="delete(x._id)" class="delete-btn">Delete</button>
 
       <div class="clear"></div>

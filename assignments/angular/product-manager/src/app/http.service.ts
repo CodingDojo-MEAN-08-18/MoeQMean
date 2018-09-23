@@ -15,7 +15,7 @@ export class HttpService {
     return this.http.get('/products');
   }
   getSingle(id) {
-    return this.http.get('/product/' + id);
+    return this.http.get('/edit/' + id);
   }
   update(id, data) {
     return this.http.post('/edit/' + id, data);
