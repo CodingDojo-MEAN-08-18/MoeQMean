@@ -1,5 +1,4 @@
 const express = require('express'),
-  path = require('path'),
   port = 1337,
   app = express();
 let routes = require('./server/routes/routes.js')(app);

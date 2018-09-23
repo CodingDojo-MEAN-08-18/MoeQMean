@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="wrapper">
+    <div class="links">
+      <h1>PPM - Project Product Management</h1>
+      <ul>
+        <li [routerLinkActiveOptions]="{ exact: true }" routerLink="" routerLinkActive="active">Home</li>
+        <li routerLink="products" routerLinkActive="active">Product List</li>
+        <li routerLink="product/new" routerLinkActive="active">Product Creation</li>
+      </ul>
+    </div>
+    <div class="routes-view">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
