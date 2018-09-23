@@ -8,6 +8,7 @@ import { HttpService } from '../http.service';
 })
 export class ProductsComponent implements OnInit {
   productData: any = {};
+  userId:string;
   constructor(private httpService: HttpService) { }
 
   ngOnInit() {
@@ -19,6 +20,15 @@ export class ProductsComponent implements OnInit {
     observable.subscribe(data => {
       console.log('Got the data', data);
       this.productData = data;
+      this.userId = this.productData.data._id;
+    });
+  }
+
+  delete(id) {
+    const obvservable = this.httpService.delete(id);
+    obvservable.subscribe(data => {
+      console.log('Item deleted:', data);
+      this.getData();
     });
   }
 
