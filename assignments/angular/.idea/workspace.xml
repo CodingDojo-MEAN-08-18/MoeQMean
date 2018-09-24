@@ -23,7 +23,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="washington.component.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="washington.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weather-api/src/app/washington/washington.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="224">
@@ -32,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="san-jose.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weather-api/src/app/san-jose/san-jose.component.html">
+      <file leaf-file-name="routes.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/restful-tasks-crud/server/routes/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+            <state relative-caret-position="303">
+              <caret line="62" column="2" selection-start-line="62" selection-start-column="2" selection-end-line="72" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -46,18 +46,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="616">
               <caret line="23" column="3" selection-start-line="9" selection-start-column="2" selection-end-line="23" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="san-jose.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weather-api/src/app/san-jose/san-jose.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -77,6 +65,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="products.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product-manager/server/models/products.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="washington.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weather-api/src/app/washington/washington.component.ts">
           <provider selected="true" editor-type-id="text-editor">
@@ -85,6 +82,24 @@
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/restful-tasks-crud/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tasks.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/restful-tasks-crud/server/models/tasks.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -179,16 +194,19 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/anonymous-notes/node_modules" />
+    <handled-path value="$PROJECT_DIR$/authors/node_modules" />
     <handled-path value="$PROJECT_DIR$/books-api/node_modules" />
     <handled-path value="$PROJECT_DIR$/hello-angular/node_modules" />
     <handled-path value="$PROJECT_DIR$/ninja-gold/node_modules" />
+    <handled-path value="$PROJECT_DIR$/product-manager/node_modules" />
     <handled-path value="$PROJECT_DIR$/restful-tasks-crud/node_modules" />
     <handled-path value="$PROJECT_DIR$/weather-api/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1743" />
-    <option name="width" value="2106" />
-    <option name="height" value="2112" />
+    <option name="x" value="471" />
+    <option name="width" value="1686" />
+    <option name="height" value="2100" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -206,43 +224,20 @@
             <path>
               <item name="angular" type="b2602c69:ProjectViewProjectNode" />
               <item name="angular" type="462c0819:PsiDirectoryNode" />
-              <item name="weather-api" type="462c0819:PsiDirectoryNode" />
+              <item name="restful-tasks-crud" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="angular" type="b2602c69:ProjectViewProjectNode" />
               <item name="angular" type="462c0819:PsiDirectoryNode" />
-              <item name="weather-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="restful-tasks-crud" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="angular" type="b2602c69:ProjectViewProjectNode" />
               <item name="angular" type="462c0819:PsiDirectoryNode" />
-              <item name="weather-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="angular" type="b2602c69:ProjectViewProjectNode" />
-              <item name="angular" type="462c0819:PsiDirectoryNode" />
-              <item name="weather-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="dallas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="angular" type="b2602c69:ProjectViewProjectNode" />
-              <item name="angular" type="462c0819:PsiDirectoryNode" />
-              <item name="weather-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="washington" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="angular" type="b2602c69:ProjectViewProjectNode" />
-              <item name="angular" type="462c0819:PsiDirectoryNode" />
-              <item name="weather-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="restful-tasks-crud" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -252,7 +247,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
@@ -303,31 +298,34 @@
       <workItem from="1537068562815" duration="11061000" />
       <workItem from="1537127184888" duration="4869000" />
       <workItem from="1537154848032" duration="436000" />
+      <workItem from="1537755464968" duration="446000" />
+      <workItem from="1537756008210" duration="73000" />
+      <workItem from="1537757998439" duration="626000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53253000" />
+    <option name="totallyTimeSpent" value="54398000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1162" y="0" width="1404" height="1408" extended-state="0" />
+    <frame x="314" y="0" width="1124" height="1400" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23335771" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29346827" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3296617" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2995283" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30142406" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TypeScript" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -345,16 +343,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/weather-api/src/app/san-jose/san-jose.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/weather-api/src/app/seattle/seattle.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -428,13 +416,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/restful-tasks-crud/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -524,20 +505,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/restful-tasks-crud/server/models/tasks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/restful-tasks-crud/server/routes/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1932">
-          <caret line="69" column="25" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -662,11 +629,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/weather-api/src/app/san-jose/san-jose.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
+        <state relative-caret-position="672">
           <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -718,6 +682,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="8" column="22" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restful-tasks-crud/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restful-tasks-crud/server/models/tasks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-manager/server/models/products.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restful-tasks-crud/server/routes/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="62" column="2" selection-start-line="62" selection-start-column="2" selection-end-line="72" selection-end-column="5" />
         </state>
       </provider>
     </entry>

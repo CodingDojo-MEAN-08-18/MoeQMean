@@ -1,0 +1,50 @@
+.container {
+  margin-top: 50px;
+  background: #e3e3e3;
+  border: 2px solid #000000;
+
+  .row {
+    margin-bottom: 20px;
+  }
+
+  .note-box {
+    border: 2px solid #000000;
+    background: #ffffff;
+    padding: 10px;
+
+    input.form-control{
+      display: inline-block;
+      width: 60%;
+      margin-right: 10px;
+    }
+    label {
+      margin-right: 10px;
+    }
+
+    @media screen and (max-width: 768px) {
+      input.form-control {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-right: 0;
+      }
+    }
+  }
+
+  .notes {
+    border: 2px solid #000000;
+    background: #ffffff;
+    padding: 10px;
+
+    .each-note {
+      border: 2px solid #000000;
+      background: #ffffff;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+
+}
