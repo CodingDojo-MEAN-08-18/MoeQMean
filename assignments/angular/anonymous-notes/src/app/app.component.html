@@ -4,10 +4,13 @@
       <h1>{{title}}</h1>
       <br />
       <div class="note-box">
+        <div class="msg" *ngIf="message">
+          <p>{{message}}</p>
+        </div>
         <label for="note">Note:</label>
-        <input [(ngModel)]="note" class="form-control" type="text" name="note" id="note">
+        <input [(ngModel)]="note" required minlength="4" class="form-control" type="text" name="note" id="note">
 
-        <button (click)="createNote()" class="btn btn-success float-right">Add Note</button>
+        <button [disabled]="!note || note.length <= 3" (click)="createNote()" class="btn btn-success float-right">Add Note</button>
 
         <div class="clearfix"></div>
       </div>

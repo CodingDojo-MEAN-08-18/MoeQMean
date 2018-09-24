@@ -12,6 +12,8 @@ export class AppComponent implements OnInit {
   note: string;
   noteData: any = {};
   formattedDate: string;
+  message: string;
+  disabled: Boolean = false;
 
   constructor(private httpService: HttpService) { }
 
@@ -28,12 +30,21 @@ export class AppComponent implements OnInit {
   }
 
   createNote() {
-    const ob = this.httpService.create({note: this.note});
-    ob.subscribe(data => {
-      console.log('Created note:', data);
+    if (!this.note) {
+      this.message = 'Please enter more than 3 characters';
+      this.disabled = true;
+    } else if (this.note.length <= 3) {
+      this.message = 'Please enter more than 3 characters';
       this.note = '';
-      this.getNotes();
-    });
+      this.disabled = true;
+    } else {
+      const ob = this.httpService.create({note: this.note});
+      ob.subscribe(data => {
+        console.log('Created note:', data);
+        this.note = '';
+        this.getNotes();
+      });
+    }
   }
 
   // delete(id) {
