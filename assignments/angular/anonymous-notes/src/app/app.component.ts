@@ -24,6 +24,10 @@ export class AppComponent implements OnInit {
     ob.subscribe(data => {
       console.log('Got the data:', data);
       this.noteData = data;
+
+      this.noteData = this.noteData.sort(function(a, b) {
+
+      });
     });
   }
 

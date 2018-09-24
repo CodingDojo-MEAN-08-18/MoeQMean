@@ -28,7 +28,7 @@ module.exports = function(app) {
 
   // Read / get all notes
   app.get('/notes', function (req, res) {
-    Note.find({}, function(err, data) {
+    Note.find({}).sort({createdAt: -1}).exec(function(err, data) {
       if (err) {
         res.json({message: "Error", error: err});
       } else {
