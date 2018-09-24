@@ -24,10 +24,6 @@ export class AppComponent implements OnInit {
     ob.subscribe(data => {
       console.log('Got the data:', data);
       this.noteData = data;
-
-      this.noteData = this.noteData.sort(function(a, b) {
-
-      });
     });
   }
 
@@ -35,7 +31,7 @@ export class AppComponent implements OnInit {
     const ob = this.httpService.create({note: this.note});
     ob.subscribe(data => {
       console.log('Created note:', data);
-
+      this.note = '';
       this.getNotes();
     });
   }
