@@ -1,0 +1,13 @@
+<h1>Player Status - {{currentStatus}}</h1>
+
+<div class="list-add">
+  <ul>
+    <li (click)="clickStatus($event)" routerLink="game/1" routerLinkActive="active">Game 1</li>
+    <li (click)="clickStatus($event)" routerLink="game/2" routerLinkActive="active">Game 2</li>
+    <li (click)="clickStatus($event)" routerLink="game/3" routerLinkActive="active">Game 3</li>
+  </ul>
+
+  <div class="router-box">
+    <router-outlet></router-outlet>
+  </div>
+</div>

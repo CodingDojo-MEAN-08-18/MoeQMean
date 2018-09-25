@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+.container-fluid {
+  background: #efefef;
+  height: 100vh;
+  padding-top: 30px;
+
+  .row {
+    margin-bottom: 20px;
+  }
+  .link-row {
+    ul {
+      list-style: none;
+      li {
+        display: inline-block;
+        margin: 0 5px;
+        font-size: 1.3rem;
+        cursor: pointer;
+        color: #0075c9;
+        text-decoration: underline;
+        //transition: all 0.2s ease;
+        &:first-child {
+          border-right: 1px solid #000000;
+          padding-right: 10px;
+        }
+        &:hover {
+          font-weight: 700;
+        }
+      }
+      li.active {
+        font-weight: 700;
+      }
+    }
+  }
+  .router-box {
+    background: #ffffff;
+    border: 2px solid #000000;
+    padding: 20px;
+  }
+}
