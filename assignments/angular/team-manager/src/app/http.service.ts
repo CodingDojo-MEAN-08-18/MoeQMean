@@ -13,12 +13,12 @@ export class HttpService {
     return this.http.post('/new', data);
   }
   read() {
-    return this.http.get('/');
+    return this.http.get('/players');
   }
   update(id, data) {
     return this.http.post('/edit/' + id, data);
   }
   delete(id) {
-    return this.http.post('/destroy/' + id, false);
+    return this.http.post('/remove/' + id, false);
   }
 }
