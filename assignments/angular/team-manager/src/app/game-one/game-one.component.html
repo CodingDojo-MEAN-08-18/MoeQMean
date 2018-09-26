@@ -1,3 +1,18 @@
-<p>
-  game-one works!
-</p>
+<table class="table">
+  <thead>
+  <tr>
+    <th scope="col">Team name</th>
+    <th scope="col">Actions</th>
+  </tr>
+  </thead>
+  <tbody *ngIf="playerData">
+  <tr *ngFor="let x of playerData">
+    <td>{{x.name}}</td>
+    <td class="actions">
+      <button [ngClass]="x.actions === 'Playing' ? 'playingBtn' : ''" (click)="update(x._id, $event)" class="btn">Playing</button>
+      <button [ngClass]="{'notPlayingBtn' : x.actions === 'Not Playing'}" (click)="update(x._id, $event)" class="btn">Not Playing</button>
+      <button [ngClass]="{'undecidedBtn' : x.actions === 'Undecided'}" (click)="update(x._id, $event)" class="btn">Undecided</button>
+    </td>
+  </tr>
+  </tbody>
+</table>

@@ -1,21 +1,23 @@
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-12">
-      <h1 class="text-center">{{title}}</h1>
+<div class="wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="text-center">{{title}}</h1>
+      </div>
     </div>
-  </div>
-  <div class="row link-row">
-    <div class="col-12">
-      <ul>
-        <li routerLink="players/" routerLinkActive="active">Manager Players</li>
-        <li routerLink="status" routerLinkActive="active">Manager Player Status</li>
-      </ul>
+    <div class="row link-row">
+      <div class="col-12">
+        <ul>
+          <li routerLink="players/" routerLinkActive="active">Manager Players</li>
+          <li routerLink="status" routerLinkActive="active">Manager Player Status</li>
+        </ul>
+      </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="col-12">
-      <div class="router-box">
-        <router-outlet></router-outlet>
+    <div class="row">
+      <div class="col-12">
+        <div class="router-box">
+          <router-outlet></router-outlet>
+        </div>
       </div>
     </div>
   </div>

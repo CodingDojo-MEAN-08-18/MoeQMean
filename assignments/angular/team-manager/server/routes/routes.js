@@ -36,11 +36,11 @@ module.exports = function(app) {
 
   // Update a player
   app.post('/edit/:id', function(req, res) {
-    Player.findOneAndUpdate({_id: req.params.id}, {$set: {action: req.body.action}}, {new: true}, function(err, data) {
+    Player.findOneAndUpdate({_id: req.params.id}, {$set: {actions: req.body.action}}, {new: true}, function(err, data) {
       if(err) {
         console.log('error setting the data', err);
       } else {
-        console.log('Player updated!', data);
+        res.json(data);
       }
     });
   });
