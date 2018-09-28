@@ -1,0 +1,38 @@
+.battle-box {
+  border: 2px solid #000000;
+  padding: 10px;
+
+  ul {
+    list-style: none;
+    li {
+      display: inline-block;
+      padding: 0 10px;
+      font-size: 1.8rem;
+      color: #0075c9;
+      cursor: pointer;
+
+      &:first-child {
+        border-right: 1px solid #000000;
+      }
+    }
+  }
+}
+.user-box {
+  border: 2px solid #000000;
+  padding: 10px;
+
+  .player-title {
+    font-size: 1.6rem;
+  }
+  input {
+    margin-bottom: 20px;
+  }
+}
+
+.after-data {
+  img {
+    display: block;
+    margin: 0 auto;
+    max-height: 400px;
+  }
+}

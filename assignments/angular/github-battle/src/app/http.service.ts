@@ -5,6 +5,7 @@ import { HttpClient } from "@angular/common/http";
   providedIn: 'root'
 })
 export class HttpService {
+  gitApi = 'https://api.github.com';
 
   constructor(private http: HttpClient) { }
 
@@ -13,5 +14,9 @@ export class HttpService {
   }
   get() {
     return this.http.get('/battles');
+  }
+
+  gitRequest(user) {
+    return this.http.get(this.gitApi + '/users/' + user + '?access_token=938b03edcf599ccb4dc24a6782d28e39e02b4bc2');
   }
 }

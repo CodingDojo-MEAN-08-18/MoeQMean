@@ -4,7 +4,8 @@ mongoose.connect('mongodb://localhost/github_battle', {useNewUrlParser: true });
 
 let BattleSchema = new mongoose.Schema({
   name: {type: String, required: true},
-  score: {type: Number, required: true}
+  score: {type: Number, required: true},
+  imgUrl: {type: String, required: true}
 }, {timestamps: true});
 
 mongoose.model('Battle', BattleSchema);
