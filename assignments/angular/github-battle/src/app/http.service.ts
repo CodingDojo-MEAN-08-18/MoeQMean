@@ -17,6 +17,7 @@ export class HttpService {
   }
 
   gitRequest(user) {
-    return this.http.get(this.gitApi + '/users/' + user + '?access_token=f6bcaef7a706a237b91185ee737e13c5a5be6d6c');
+    // return this.http.get(this.gitApi + '/users/' + user + '?access_token=f6bcaef7a706a237b91185ee737e13c5a5be6d6c');
+    return this.http.get(this.gitApi + '/users/' + user);
   }
 }
