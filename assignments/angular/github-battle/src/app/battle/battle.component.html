@@ -1,0 +1,45 @@
+<div class="row">
+  <div class="col-md-6">
+    <div class="user-box">
+      <div class="pre-data" *ngIf="!gitObjOne.name">
+        <p class="text-center player-title">Player 1</p>
+        <label for="player1">Github username:</label>
+        <input (keyup.enter)="gitPlayer(playerOne, $event)" [(ngModel)]="playerOne" type="text" name="player1" id="player1" class="form-control">
+
+        <div class="error-msg"></div>
+
+        <button name="player1" (click)="gitPlayer(playerOne, $event)" class="btn btn-primary form-control">Get User</button>
+      </div>
+
+      <div class="after-data" *ngIf="gitObjOne.name">
+        <img class="img-fluid" src="{{gitObjOne.avatar_url}}" alt="Git Avatar">
+        <p class="text-center">{{gitObjOne.name}}</p>
+      </div>
+
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="user-box">
+      <div class="pre-data" *ngIf="!gitObjTwo.name">
+        <p class="text-center player-title">Player 2</p>
+        <label for="player2">Github username:</label>
+        <input (keyup.enter)="gitPlayer(playerTwo, $event)" [(ngModel)]="playerTwo" type="text" name="player2" id="player2" class="form-control">
+
+        <div class="error-msg"></div>
+
+        <button name="player2" (click)="gitPlayer(playerTwo, $event)" class="btn btn-primary form-control">Get User</button>
+      </div>
+
+      <div class="after-data" *ngIf="gitObjTwo.name">
+        <img class="img-fluid" src="{{gitObjTwo.avatar_url}}" alt="Git Avatar">
+        <p class="text-center">{{gitObjTwo.name}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-12">
+    <button (click)="battle()" *ngIf="gitObjOne.name && gitObjTwo.name" class="btn btn-warning form-control">Battle!</button>
+  </div>
+</div>
+

@@ -14,7 +14,7 @@ module.exports = function(app) {
 
   // Create new battle
   app.post('/new',function(req,res) {
-    const newBattle = new Battle({note: req.body.note});
+    const newBattle = new Battle({name: req.body.name, score: req.body.score, imgUrl: req.body.imgUrl});
     newBattle.save(function(err, data){
       if (err) {
         console.log(err);
