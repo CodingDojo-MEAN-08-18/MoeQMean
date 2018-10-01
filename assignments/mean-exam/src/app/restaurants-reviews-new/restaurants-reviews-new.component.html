@@ -1,0 +1,35 @@
+<div class="row" *ngIf="singleData.data">
+  <div class="col-12">
+    <h5>
+      <strong>Write a review for {{singleData.data.name}}</strong>
+    </h5>
+    <br />
+    <div class="box">
+      <form action="/add/review/{{singleData.data._id}}" method="post">
+        <div class="form-group">
+          <label for="reviewer">Your name:</label>
+          <input class="form-control" [(ngModel)]="reviewer" type="text" id="reviewer" name="reviewer">
+        </div>
+        <div class="form-group">
+          <label for="stars">Stars:</label>
+          <select class="form-control" [(ngModel)]="stars" name="stars" id="stars">
+            <option value="1">1 Star</option>
+            <option value="2">2 Stars</option>
+            <option value="3">3 Stars</option>
+            <option value="4">4 Stars</option>
+            <option value="5">5 Stars</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="desc">Description:</label>
+          <input class="form-control" [(ngModel)]="desc" type="text" id="desc" name="desc">
+        </div>
+
+        <div class="btn-box text-right">
+          <button routerLink="/restaurants/{{userId}}" class="btn btn-secondary">Cancel</button>
+          <button (click)="addReview()" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

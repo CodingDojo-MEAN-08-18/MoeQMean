@@ -1,0 +1,14 @@
+.reg-box {
+  max-width: 600px;
+  border: 2px solid #000000;
+  padding: 20px;
+}
+
+button.btn-secondary {
+  margin-right: 10px;
+}
+.error {
+  color: #e74c3c;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
