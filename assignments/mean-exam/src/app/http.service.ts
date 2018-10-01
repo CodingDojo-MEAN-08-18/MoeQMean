@@ -32,4 +32,8 @@ export class HttpService {
   getReviews(id) {
     return this.http.get('/reviews/' + id);
   }
+
+  destroy(id) {
+    return this.http.post('/remove/' + id, false);
+  }
 }

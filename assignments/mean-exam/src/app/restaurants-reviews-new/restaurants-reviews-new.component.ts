@@ -13,6 +13,9 @@ export class RestaurantsReviewsNewComponent implements OnInit {
   reviewer: string;
   stars: string;
   desc: string;
+  error = false;
+  errorMsg: string;
+  createReviewData: any = {};
 
   constructor(
     private activated: ActivatedRoute,
@@ -39,11 +42,24 @@ export class RestaurantsReviewsNewComponent implements OnInit {
       stars: this.stars,
       desc: this.desc
     };
-    const observable = this.httpServ.addReview(this.userId, reviewData);
-    observable.subscribe(data => {
-      console.log('Review added!', data);
-    });
-    this.router.navigate(['/restaurants/' + this.userId]);
+
+    if (!this.reviewer || this.reviewer.length < 3) {
+      this.error = true;
+      this.errorMsg = 'Your name must contain at least 3 characters!';
+    } else if (!this.desc || this.desc.length < 3) {
+      this.error = true;
+      this.errorMsg = 'Description must contain at least 3 characters!';
+    } else {
+      const observable = this.httpServ.addReview(this.userId, reviewData);
+      observable.subscribe(data => {
+
+        if (this.createReviewData.message !== 'Error') {
+          this.router.navigate(['/restaurants/' + this.userId]);
+        }
+
+        console.log('Review added!', data);
+      });
+    }
   }
 
 }

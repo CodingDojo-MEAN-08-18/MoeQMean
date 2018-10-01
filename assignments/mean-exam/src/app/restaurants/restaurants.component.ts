@@ -1,5 +1,5 @@
 import {AfterViewInit, Component, OnInit} from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { HttpService } from '../http.service';
 
 @Component({
@@ -7,16 +7,21 @@ import { HttpService } from '../http.service';
   templateUrl: './restaurants.component.html',
   styleUrls: ['./restaurants.component.css']
 })
-export class RestaurantsComponent implements AfterViewInit {
+export class RestaurantsComponent implements OnInit {
   restaurantData: any = {};
 
   constructor(
     public route: ActivatedRoute,
-    private httpService: HttpService) {
+    private httpService: HttpService,
+    public router: Router) {
+    this.getAll();
+    if (this.router.url === '/restaurants') {
+      console.log('in restaurants');
+    }
   }
 
-  ngAfterViewInit() {
-    this.getAll();
+  ngOnInit() {
+
   }
 
   getAll() {
@@ -24,6 +29,14 @@ export class RestaurantsComponent implements AfterViewInit {
     observable.subscribe(data => {
       console.log('Got all restaurants!', data);
       this.restaurantData = data;
+    });
+  }
+
+  delete(id) {
+    const ob = this.httpService.destroy(id);
+    ob.subscribe(data => {
+      console.log('Deleted an item');
+      this.getAll();
     });
   }
 

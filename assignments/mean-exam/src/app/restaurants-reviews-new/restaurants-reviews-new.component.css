@@ -6,3 +6,8 @@
 .btn-secondary {
   margin-right: 10px;
 }
+.error {
+  color: #e74c3c;
+  margin-bottom: 10px;
+  font-weight: 700;
+}

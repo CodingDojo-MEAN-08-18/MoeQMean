@@ -91,7 +91,8 @@ module.exports = function(app) {
               if (saveErr) {
                 console.log('There was an error saving', saveErr);
               } else {
-                console.log('Successfully saved review', saveData)
+                console.log('Successfully saved review', saveData);
+                res.json({saveData});
               }
             });
           }
