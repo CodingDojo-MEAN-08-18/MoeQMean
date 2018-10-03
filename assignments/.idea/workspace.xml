@@ -17,8 +17,17 @@
       <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MongoDB/Mongoose/message_board/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2016">
+            <state relative-caret-position="950">
               <caret line="72" column="61" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="777">
+              <caret line="40" column="8" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -44,17 +53,17 @@
       <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angular/quote-ranks/server/routes/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="949">
+            <state relative-caret-position="2240">
               <caret line="80" column="18" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angular/quote-ranks/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+            <state relative-caret-position="952">
+              <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -154,7 +163,6 @@
     <handled-path value="$PROJECT_DIR$/express/counter/node_modules" />
     <handled-path value="$PROJECT_DIR$/express/survey_form/node_modules" />
     <handled-path value="$PROJECT_DIR$/express/swapi/node_modules" />
-    <handled-path value="$PROJECT_DIR$/mean-exam/node_modules" />
     <handled-path value="$PROJECT_DIR$/socket/chatroom/node_modules" />
     <handled-path value="$PROJECT_DIR$/socket/epic_button_game/node_modules" />
     <handled-path value="$PROJECT_DIR$/socket/survey_form/node_modules" />
@@ -169,7 +177,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,51 +189,16 @@
               <item name="assignments" type="462c0819:PsiDirectoryNode" />
               <item name="angular" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="assignments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="angular" type="462c0819:PsiDirectoryNode" />
-              <item name="quote-ranks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="assignments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="angular" type="462c0819:PsiDirectoryNode" />
-              <item name="quote-ranks" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="assignments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="angular" type="462c0819:PsiDirectoryNode" />
-              <item name="quote-ranks" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="assignments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="angular" type="462c0819:PsiDirectoryNode" />
-              <item name="quote-ranks" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="assignments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="angular" type="462c0819:PsiDirectoryNode" />
-              <item name="quote-ranks" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
@@ -275,12 +247,13 @@
       <workItem from="1537843712137" duration="3602000" />
       <workItem from="1538269493134" duration="15799000" />
       <workItem from="1538450410069" duration="2328000" />
-      <workItem from="1538541538659" duration="24000" />
+      <workItem from="1538541538659" duration="350000" />
+      <workItem from="1538541940939" duration="445000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46718000" />
+    <option name="totallyTimeSpent" value="47489000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1272" y="0" width="1294" height="1408" extended-state="0" />
@@ -290,12 +263,12 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5003984" side_tool="true" weight="0.2933754" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4996016" visible="true" weight="0.1721698" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4996016" visible="true" weight="0.17138365" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -323,13 +296,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/angular/quote-ranks/server/models/quotes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/angular/quote-ranks/server/routes/routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2240">
@@ -599,7 +565,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MongoDB/Mongoose/message_board/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2016">
+        <state relative-caret-position="950">
           <caret line="72" column="61" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="61" />
         </state>
       </provider>
@@ -620,15 +586,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/angular/quote-ranks/server/routes/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="949">
+        <state relative-caret-position="2240">
           <caret line="80" column="18" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/angular/quote-ranks/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+        <state relative-caret-position="952">
+          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="40" column="8" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
         </state>
       </provider>
     </entry>

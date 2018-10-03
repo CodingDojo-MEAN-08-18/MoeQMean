@@ -38,7 +38,11 @@ testem.log
 .DS_Store
 Thumbs.db
 
-/MongoDB
-/express
-/node
-/socket
+
+.DS_Store
+.idea
+.vagrant
+bootstrap.sh
+VagrantFile
+bower_components/
+package-lock.json
