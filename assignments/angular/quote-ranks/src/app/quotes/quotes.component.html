@@ -1,0 +1,34 @@
+<div class="row">
+  <div class="col-12">
+    <a routerLink="/">Home</a>
+    <a routerLink="/write/{{userID}}">Add a Quote</a>
+  </div>
+</div>
+<div class="row" *ngIf="userData.data">
+  <div class="col-12">
+    <p class="txt-blue">We have quotes by {{userData.data.name}}:</p>
+
+    <table class="table" *ngIf="quoteData.data">
+      <thead class="thead-light">
+      <tr>
+        <th scope="col">Quote</th>
+        <th scope="col">Votes</th>
+        <th scope="col">Actions Available</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let quote of quoteData.data.quotes">
+        <td class="quotes">{{quote.quote}}</td>
+        <td>
+          {{quote.votes}}
+        </td>
+        <td>
+          <button (click)="voteUp(quote._id, quote.votes)" class="btn-secondary btn">Vote Up</button>
+          <button (click)="voteDown(quote._id, quote.votes)" class="btn-secondary btn">Vote Down</button>
+          <button (click)="deleteQuote(quote._id)" class="btn btn-danger">Delete</button>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

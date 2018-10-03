@@ -1,0 +1,22 @@
+<div class="row">
+  <div class="col-12">
+    <a routerLink="/">Home</a>
+  </div>
+</div>
+<div class="row">
+  <div class="col-12" *ngIf="userData.data">
+    <p class="txt-blue">Provide a quote by {{userData.data.name}}:</p>
+
+    <div class="form-box">
+      <form action="/new" method="post">
+        <div class="form-group">
+          <label for="quote">Quote:</label>
+          <input [(ngModel)]="quote" id="quote" name="quote" type="text" class="form-control">
+        </div>
+
+        <button routerLink="/quotes/{{userID}}" class="btn btn-secondary">Cancel</button>
+        <button type="submit" (click)="createQuote()" class="btn btn-success">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>

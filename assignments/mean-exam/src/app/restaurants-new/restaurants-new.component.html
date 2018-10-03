@@ -6,21 +6,34 @@
 
     <div class="reg-box">
       <form action="/new" method="post">
-        <div class="error" *ngIf="error">
-          {{errorMsg}}
+        <div class="form-group">
+          <mat-form-field class="example-full-width">
+            <input minlength="3" matInput placeholder="Restaurant name" [(ngModel)]="name"   [formControl]="nameFormControl" [errorStateMatcher]="matcher">
+
+            <mat-error *ngIf="nameFormControl.hasError('required')">
+              Name is <strong>required</strong>
+            </mat-error>
+            <mat-error *ngIf="nameFormControl.hasError('minlength')">
+              Please enter minimum <strong>3 characters</strong>
+            </mat-error>
+          </mat-form-field>
         </div>
         <div class="form-group">
-          <label for="name">Restaurant name:</label>
-          <input required minlength="4" [(ngModel)]="name"  class="form-control" type="text" id="name" name="name">
-        </div>
-        <div class="form-group">
-          <label for="cuisine">Cuisine type:</label>
-          <input [(ngModel)]="cuisine" class="form-control" type="text" id="cuisine" name="cuisine">
+          <mat-form-field class="example-full-width">
+            <input minlength="3" matInput placeholder="Cuisine" [(ngModel)]="cuisine"   [formControl]="cuisineFormControl" [errorStateMatcher]="matcher">
+
+            <mat-error *ngIf="cuisineFormControl.hasError('required')">
+              Cuisine is <strong>required</strong>
+            </mat-error>
+            <mat-error *ngIf="cuisineFormControl.hasError('minlength')">
+              Please enter minimum <strong>3 characters</strong>
+            </mat-error>
+          </mat-form-field>
         </div>
 
         <div class="btn-box text-right">
           <button routerLink="/restaurants" class="btn btn-secondary">Cancel</button>
-          <button (click)="newRestaurant()" class="btn btn-primary">Register</button>
+          <button type="submit" [disabled]="!cuisineFormControl.valid ||  !nameFormControl.valid" (click)="newRestaurant()" class="btn btn-primary">Register</button>
         </div>
       </form>
     </div>

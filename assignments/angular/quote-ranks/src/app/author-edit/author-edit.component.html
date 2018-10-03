@@ -1,0 +1,22 @@
+<div class="row">
+  <div class="col-12">
+    <a routerLink="/">Home</a>
+  </div>
+</div>
+<div class="row">
+  <div class="col-12">
+    <p class="txt-blue">Edit quotable author {{name}}:</p>
+
+    <div class="form-box">
+      <form action="/new" method="post">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input [(ngModel)]="name" id="name" name="name" type="text" class="form-control">
+        </div>
+
+        <button routerLink="/" class="btn btn-secondary">Cancel</button>
+        <button type="submit" (click)="updateAuthor()" class="btn btn-success">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>

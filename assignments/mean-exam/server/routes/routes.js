@@ -12,20 +12,8 @@ module.exports = function(app) {
 
   app.get('/', function(req, res) {
     console.log('get running');
-    res.sendFile(__dirname + 'index.html');
+    res.sendFile(__dirname + '/dist/mean-exam/index.html');
   });
-  // app.get('/restaurants', function(req, res) {
-  //   console.log('get running');
-  //   res.redirect('/');
-  // });
-  // app.get('/restaurants/new', function(req, res) {
-  //   console.log('get running');
-  //   res.redirect('/');
-  // });
-  // app.get('/restaurants/reviews', function(req, res) {
-  //   console.log('get running');
-  //   res.redirect('/');
-  // });
 
   // Create new
   app.post('/new',function(req,res) {

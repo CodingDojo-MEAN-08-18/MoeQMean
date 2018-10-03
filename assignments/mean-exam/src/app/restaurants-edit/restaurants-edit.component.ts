@@ -2,6 +2,16 @@ import { Component, OnInit } from '@angular/core';
 import { HttpService } from '../http.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { NgZone } from '@angular/core';
+import {FormControl, FormGroupDirective, NgForm, Validators} from '@angular/forms';
+import {ErrorStateMatcher} from '@angular/material/core';
+
+/** Error when invalid control is dirty, touched, or submitted. */
+export class MyErrorStateMatcher implements ErrorStateMatcher {
+  isErrorState(control: FormControl | null, form: FormGroupDirective | NgForm | null): boolean {
+    const isSubmitted = form && form.submitted;
+    return !!(control && control.invalid && (control.dirty || control.touched || isSubmitted));
+  }
+}
 
 @Component({
   selector: 'app-restaurants-edit',
@@ -13,6 +23,15 @@ export class RestaurantsEditComponent implements OnInit {
   singleData: any = {};
   name: string;
   cuisine: string;
+  matcher = new MyErrorStateMatcher();
+
+  cuisineFormControl = new FormControl('', [
+    Validators.required
+  ]);
+
+  nameFormControl = new FormControl('', [
+    Validators.required
+  ]);
 
   constructor(
     private activated: ActivatedRoute,
@@ -23,6 +42,7 @@ export class RestaurantsEditComponent implements OnInit {
   ngOnInit() {
     this.restId = this.activated.snapshot.paramMap.get('id');
     this.getSingle();
+    console.log(this.cuisineFormControl);
   }
 
   getSingle() {
@@ -44,7 +64,8 @@ export class RestaurantsEditComponent implements OnInit {
     const ob = this.httpServ.updateSingle(this.restId, updateData);
     ob.subscribe(data => {
       console.log('Updated!', data);
-      return this.zone.run(() => this.router.navigate(['']));
+      // return this.zone.run(() => this.router.navigate(['']));
+      window.location.href = '/';
     });
   }
 

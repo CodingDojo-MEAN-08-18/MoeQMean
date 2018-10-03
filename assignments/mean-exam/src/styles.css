@@ -1,7 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
 .container {
   margin-top: 50px;
 }
 .row {
   margin-bottom: 20px;
+}
+.mat-form-field {
+  width: 100%;
 }

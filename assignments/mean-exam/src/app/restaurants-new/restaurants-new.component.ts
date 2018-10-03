@@ -1,7 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpService } from '../http.service';
 import { Router } from '@angular/router';
-import { FormControl, FormGroup, Validators } from '@angular/forms';
+import {FormControl, FormGroup, FormGroupDirective, NgForm, Validators} from '@angular/forms';
+import {ErrorStateMatcher} from '@angular/material/core';
+
+export class MyErrorStateMatcher implements ErrorStateMatcher {
+  isErrorState(control: FormControl | null, form: FormGroupDirective | NgForm | null): boolean {
+    const isSubmitted = form && form.submitted;
+    return !!(control && control.invalid && (control.dirty || control.touched || isSubmitted));
+  }
+}
 
 @Component({
   selector: 'app-restaurants-new',
@@ -14,16 +22,15 @@ export class RestaurantsNewComponent implements OnInit {
   error: Boolean = false;
   errorMsg: string;
   createData: any = {};
-  restaurantForm = new FormGroup({
-    'name': new FormControl('', [
-      Validators.required,
-      Validators.minLength(4),
-    ]),
-    'cuisine': new FormControl('', [
-      Validators.required,
-      Validators.minLength(4),
-    ])
-  });
+  matcher = new MyErrorStateMatcher();
+
+  cuisineFormControl = new FormControl('', [
+    Validators.required
+  ]);
+
+  nameFormControl = new FormControl('', [
+    Validators.required
+  ]);
 
   constructor(private httpService: HttpService, private router: Router) { }
 
@@ -48,7 +55,8 @@ export class RestaurantsNewComponent implements OnInit {
       }
 
       if (this.createData.message !== 'Error') {
-        this.router.navigate(['/restaurants']);
+        // this.router.navigate(['/restaurants']);
+        window.location.href = '/';
       }
     });
   }

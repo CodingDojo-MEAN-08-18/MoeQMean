@@ -7,21 +7,25 @@ import { HttpService } from '../http.service';
   templateUrl: './restaurants.component.html',
   styleUrls: ['./restaurants.component.css']
 })
-export class RestaurantsComponent implements OnInit {
+export class RestaurantsComponent implements OnInit, AfterViewInit {
   restaurantData: any = {};
 
   constructor(
     public route: ActivatedRoute,
     private httpService: HttpService,
     public router: Router) {
-    this.getAll();
+    // this.getAll();
     if (this.router.url === '/restaurants') {
       console.log('in restaurants');
     }
   }
 
   ngOnInit() {
+    this.getAll();
+  }
 
+  ngAfterViewInit() {
+    this.getAll();
   }
 
   getAll() {
