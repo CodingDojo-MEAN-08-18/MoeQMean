@@ -34,53 +34,96 @@
         <br />
         <form [formGroup]="userForm" action="/register" method="post" class="register">
           <div class="form-group">
-            <label for="firstName">First name:</label>
-            <input
-              formControlName="firstName"
-              required
-              minlength="4"
-              id="firstName"
-              name="firstName"
-              type="text"
-              class="form-control">
+            <mat-form-field>
+              <input
+                matInput
+                placeholder="Enter your first name:"
+                formControlName="firstName"
+                minlength="3"
+                required>
+              <mat-error *ngIf="userForm.controls.firstName.hasError('minlength')">
+                First name must be at least 3 characters.
+              </mat-error>
+              <mat-error *ngIf="userForm.controls.firstName.hasError('required')">
+                First name is a mandatory field, please fill it out.
+              </mat-error>
+            </mat-form-field>
           </div>
           <div class="form-group">
-            <label for="lastName">Last name:</label>
-            <input formControlName="lastName" required id="lastName" name="lastName" type="text" class="form-control">
+            <mat-form-field>
+              <input
+                matInput
+                placeholder="Enter your last name:"
+                formControlName="lastName"
+                minlength="3"
+                required>
+              <mat-error *ngIf="userForm.controls.lastName.hasError('minlength')">
+                Last name must be at least 3 characters.
+              </mat-error>
+              <mat-error *ngIf="userForm.controls.lastName.hasError('required')">
+                Last name is a mandatory field, please fill it out.
+              </mat-error>
+            </mat-form-field>
           </div>
           <div class="form-group">
-            <label for="email">Email:</label>
-            <input formControlName="email" id="email" name="email" type="email" class="form-control">
+            <mat-form-field>
+              <input
+                matInput
+                placeholder="Email:"
+                formControlName="email"
+                minlength="3"
+                type="email"
+                required>
+              <mat-error *ngIf="userForm.controls.email.hasError('minlength')">
+                Email must be at least 3 characters.
+              </mat-error>
+              <mat-error *ngIf="userForm.controls.email.hasError('required')">
+                Email is a mandatory field, please fill it out.
+              </mat-error>
+              <mat-error *ngIf="userForm.controls.email.hasError('email')">
+                Email is invalid, please insert a valid email address.
+              </mat-error>
+            </mat-form-field>
           </div>
           <div class="form-group">
-            <label for="password">Password:</label>
-            <input formControlName="password" id="password" name="password" type="password" class="form-control">
+            <mat-form-field>
+              <input
+                matInput
+                placeholder="Password:"
+                formControlName="password"
+                minlength="3"
+                type="password"
+                required>
+              <mat-error *ngIf="userForm.controls.password.hasError('minlength')">
+                Password must be at least 3 characters.
+              </mat-error>
+              <mat-error *ngIf="userForm.controls.password.hasError('required')">
+                Password is a mandatory field, please fill it out.
+              </mat-error>
+            </mat-form-field>
           </div>
           <div class="form-group">
-            <label for="passwordConfirm">Confirm Password:</label>
-            <input (keyup)="checkConfirmPass()" formControlName="confirmPass" id="passwordConfirm" name="passwordConfirm" type="password" class="form-control">
-
-            <p *ngIf="confirmInvalid">Passwords dont match!</p>
+            <mat-form-field>
+              <input
+                matInput
+                placeholder="Confirm Password:"
+                formControlName="confirmPass"
+                minlength="3"
+                type="password"
+                required>
+              <mat-error *ngIf="userForm.controls.confirmPass.hasError('minlength')">
+                Confirm password must be at least 3 characters.
+              </mat-error>
+              <mat-error *ngIf="userForm.controls.confirmPass.hasError('required')">
+                Confirm password is a mandatory field, please fill it out.
+              </mat-error>
+            </mat-form-field>
           </div>
 
-          <div *ngIf="userForm.controls.firstName.invalid && (userForm.controls.firstName.dirty || userForm.value.firstName.touched)"
-               class="alert alert-danger">
-
-            <div *ngIf="userForm.controls.firstName.errors.required">
-              Name is required.
-            </div>
-            <div *ngIf="userForm.controls.firstName.errors.minlength">
-              Name must be at least 4 characters long.
-            </div>
-            <div *ngIf="userForm.controls.firstName.errors.forbiddenName">
-              Name cannot be Bob.
-            </div>
-
-          </div>
           <p>Form status: {{userForm.status}}</p>
-          <button [disabled]="!userForm.valid" class="btn btn-primary form-control">Register</button>
+          <button (click)="regUser()" [disabled]="!userForm.valid" class="btn btn-primary form-control">Register</button>
         </form>
-      </div>
+    </div>
     </div>
   </div>
 </div>

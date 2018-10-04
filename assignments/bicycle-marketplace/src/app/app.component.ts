@@ -12,49 +12,31 @@ export class AppComponent implements OnInit {
 
   userForm: FormGroup;
 
-  confirmInvalid: Boolean = false;
-
   constructor(private httpService: HttpService, private fb: FormBuilder) { }
 
   regUser() {
-    const data = {};
-    const ob = this.httpService.registerUser(data);
+    const regData = {
+      firstName: this.userForm.value.firstName,
+      lastName: this.userForm.value.lastName,
+      email: this.userForm.value.email,
+      password: this.userForm.value.password
+    };
+    const ob = this.httpService.registerUser(regData);
+    ob.subscribe(data => {
+      console.log('User registered', data);
+    });
   }
 
   ngOnInit() {
     this.userForm = this.fb.group({
-        firstName: new FormControl('', Validators.required),
-        lastName:  new FormControl('', Validators.required),
-        email:  new FormControl('', Validators.required),
-        password: ['', [Validators.required]],
-        confirmPass: ['', [Validators.required]]
-    }, {validator: this.checkPasswords });
+        firstName: new FormControl('', [Validators.required]),
+        lastName:  new FormControl('', [Validators.required]),
+        email:  new FormControl('', [Validators.required, Validators.email]),
+        password: new FormControl('', [Validators.required]),
+        confirmPass: new FormControl('', [Validators.required])
+    });
 
     console.log(this.userForm);
   }
 
-  checkPasswords(group: FormGroup) { // here we have the 'passwords' group
-    let pass = group.controls.password.value;
-    let confirmPass = group.controls.confirmPass.value;
-
-    return pass === confirmPass ? null : { notSame: true }
-  }
-
-  checkConfirmPass() {
-    let pass = this.userForm.controls.password.value;
-    let confirmPass = this.userForm.controls.confirmPass.value;
-
-    console.log(pass);
-    console.log(confirmPass);
-
-    if (pass !== confirmPass) {
-      this.confirmInvalid = true;
-    } else {
-      this.confirmInvalid = false;
-    }
-  }
-
-  currentForm() {
-    console.log(this.userForm);
-  }
 }
